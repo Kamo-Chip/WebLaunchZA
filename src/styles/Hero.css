@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fade-in 2000ms ease-in-out 1 forwards;
+  }
+  
+  .hero-text-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  @keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
+  
+  .hero img {
+    max-height: 70px;
+    animation: shimmer 600ms linear infinite alternate-reverse;
+  }
+  
+  @keyframes shimmer {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(3deg);
+    }
+  }
+  
+  .hero button {
+    font-size: 2rem;
+    margin-top: 100px;
+    color: #fff;
+    border-radius: 10px;
+    border: solid #000 1px;
+    background-color: #000;
+    transition: all ease-in-out 500ms;
+    padding: .5em;
+  }
+  
+  .hero button:hover {
+    /* box-shadow: #000 5px 5px; */
+    transform: translate(-10px, -5px);
+    box-shadow: 10px 10px;
+    color: #000;
+    background-color: #fff;
+  }

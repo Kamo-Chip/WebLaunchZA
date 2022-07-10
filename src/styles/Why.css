@@ -1,0 +1,18 @@
+.why div {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+
+.why h1 {
+    padding-left: 50px;
+}
+
+.why div img {
+    height: 384px;
+}
+
+.why div p {
+    max-width: 800px;
+}

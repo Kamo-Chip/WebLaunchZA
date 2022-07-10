@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+h1 { 
+    margin: 0;
+}
+
+.logo h1 {
+    font-size: 2rem !important;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+}
