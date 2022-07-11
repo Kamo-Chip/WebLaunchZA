@@ -1,0 +1,29 @@
+.faq h1 {
+    padding-left: 50px;
+}
+
+.faq {
+    
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+}
+
+.faq-container div {
+    width: 80%;
+    border: solid #000 1px;
+    border-radius: 15px;
+    padding: 0 1em;
+}
+.faq-container p {
+    font-size: 1.3rem;
+}
+
+.faq-container h3 {
+    font-size: 1.5rem;
+}
+

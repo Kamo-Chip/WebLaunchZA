@@ -11,4 +11,11 @@ h1 {
 .logo {
     position: absolute;
     top: 0;
+    padding: .5em 0 0 1em;
+}
+
+@media screen and (max-width: 425px) { 
+    .logo h1 {
+        font-size: 1.5rem !important;
+    }
 }

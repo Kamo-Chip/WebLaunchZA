@@ -1,8 +1,9 @@
-.why div {
+.why-container{
     display: grid;
     grid-template-columns: auto auto;
     font-family: Arial;
     font-size: 1.5rem;
+    padding: 0 60px;
 }
 
 .why h1 {
@@ -15,4 +16,40 @@
 
 .why div p {
     max-width: 800px;
+}
+
+.why {
+    height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    .why div img {
+        height: 192px;
+    }
+
+    .why-container p {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .why h1 {
+        padding: 0;
+    }
+
+    .why-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px
+    }
+
+    .why-container p {
+        text-align: center;
+    }
+
+    .why div img {
+        height: 192px;
+        width: 192px;
+        align-self: center;
+    }
 }

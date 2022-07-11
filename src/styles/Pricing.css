@@ -5,7 +5,7 @@
 
 .tiers-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -15,11 +15,29 @@
     align-items: center;
     border-radius: 15px;
     border: solid #000 1px;
-    margin: 50px;
+    margin: 20px;
     padding: 0 2em;
-    width: 300px;
+    width: 250px;
     font-family: Arial;
     background: #fff;
+}
+
+.addon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: solid #000 1px;
+    margin: 20px;
+    padding: 0 2em;
+    width: 50%;
+    min-width: 250px;
+    font-family: Arial;
+    background: #101010;
+    color: #fff;
+    text-align: center;
+    justify-self: center;
+    padding: 1em;
 }
 
 .tier h2 {
@@ -27,8 +45,15 @@
 }
 
 .tier ul {
-    padding: 0;
     height: 200px;
+}
+
+.pricing li{
+    list-style: none;
+}
+
+.pricing ul {
+    padding: 0;
 }
 
 .tier button {
@@ -46,4 +71,13 @@
 .tier button:hover {
     transform: translate(-10px, -5px);
     box-shadow: #000 10px 10px;
+}
+
+.pricing h1 {
+    padding-left: 50px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-rows: auto auto;
 }

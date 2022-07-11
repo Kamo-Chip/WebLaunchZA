@@ -6,13 +6,13 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div className='hero'>
-        <div style={{
+        <div className="hero-container" style={{
           display: "flex",
           flexDirection: "row",
           marginTop: "200px",
         }}>
 
-          <div style={{display: "flex", flexDirection: "column", width: "fit-content"}}>
+          <div className="stars" style={{display: "flex", flexDirection: "column", width: "fit-content"}}>
             <img src={Star} alt=""/>
             <img src={Star} alt="" style={{
               marginRight: "60px",
@@ -25,7 +25,7 @@ const Hero = () => {
               <span style={{textAlign: "center"}}>For Creators</span>
             </div>
    
-            <div style={{display: "flex", flexDirection: "column", width: "fit-content"}}>
+            <div className="stars" style={{display: "flex", flexDirection: "column", width: "fit-content"}}>
               <img src={Star} alt=""/>
               <img src={Star} alt="" style={{
                 marginLeft: "60px",

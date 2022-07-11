@@ -1,0 +1,4 @@
+Add footer
+Style it up
+Add payments
+Test it out
