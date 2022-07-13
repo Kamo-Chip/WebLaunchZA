@@ -16,6 +16,7 @@ const PaypalCheckoutButton = (props) => {
       style={{
         shape: "pill",
         tagline: false,
+        
       }}
       createOrder={(data, actions) => {
         return actions.order.create({
