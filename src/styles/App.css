@@ -21,7 +21,7 @@ h1 {
   font-size: 4rem;
 }
 
-.hero, .why, .faq {
+.hero, .why {
   height: 100vh;
   overflow-x: hidden;
 }

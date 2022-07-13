@@ -1,9 +1,10 @@
 .faq h1 {
     padding-left: 50px;
+    margin: 1em 0 !important;
 }
 
 .faq {
-    
+    height: fit-content;
 }
 
 .faq-container {
@@ -18,7 +19,9 @@
     border: solid #000 1px;
     border-radius: 15px;
     padding: 0 1em;
+    background-color: #f1f333;
 }
+
 .faq-container p {
     font-size: 1.3rem;
 }
