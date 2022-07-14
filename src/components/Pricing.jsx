@@ -33,7 +33,7 @@ const Pricing = () => {
     <PayPalScriptProvider
       options={{
         "client-id":
-          "Ab-8_AfIvO91deyFXdsUQrmJU1IypjmGcTjkIyoKkj1yDLkUocN6Ft25wcaSjny1U6UGvpu7h-KtGcbY",
+          "Afeh1bbkCUA3YyD5xSWkTu8Rl9wr7JnWVjSCdYfN4GfZLzilY-a2tt4BANXr5vwb7-_A7Lh3CL0KAXUA",
       }}
     >
       <div className="pricing" id="pricing">

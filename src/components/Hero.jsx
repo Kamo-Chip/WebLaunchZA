@@ -2,7 +2,6 @@ import React from "react";
 import Star from "../images/star.svg";
 import "../styles/Hero.css";
 import { Link } from "react-scroll";
-import DentImg from "../images/dent.jpg";
 
 const Hero = () => {
   return (
@@ -36,7 +35,7 @@ const Hero = () => {
 
         <div className="hero-text-container">
           <span>Helping Creators Make A</span>
-          <span style={{ textAlign: "center" }}><span style={{backgroundColor: "#000", color: "#fff", padding: ".1em .3em"}}>Dent</span> On The Internet</span>
+          <span style={{ textAlign: "center" }}><span style={{backgroundColor: "#000", color: "#fff", padding: ".05em .3em"}}>Dent</span> On The Internet</span>
         </div>
 
         <div
