@@ -1,85 +1,174 @@
+@font-face {
+  font-family: mabry;
+  src: url(Mabry-Pro-Medium.ttf);
+}
+
+@font-face {
+  font-family: grifter;
+  src: url(grifterbold.otf);
+}
+
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation: fade-in 2000ms ease-in-out 1 forwards;
-    width: 100%;
-  }
-  
-  .hero-text-container {
-    display: flex;
-    flex-direction: column;
-    font-size: 5rem;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #101010;
+  color: #fff;
+  font-family: grifter;
+  background-image: url("../images/dent.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  height: fit-content;
+  background-position: center;
+}
 
-  @keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-  }
-  
-  .hero img {
-    max-height: 70px;
-    animation: shimmer 600ms linear infinite alternate-reverse;
-  }
-  
-  @keyframes shimmer {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(3deg);
-    }
-  }
-  
-  .hero button {
-    font-size: 2rem;
-    margin-top: 100px;
-    color: #fff;
-    border-radius: 10px;
-    border: solid #000 1px;
-    background-color: #000;
-    transition: all ease-in-out 500ms;
-    padding: .5em;
-  }
-  
-  .hero button:hover {
-    /* box-shadow: #000 5px 5px; */
-    transform: translate(-10px, -5px);
-    box-shadow: 10px 10px;
-    color: #000;
-    background-color: #fff;
-  }
+.hero-container {
+  background-color: #fff;
+  animation: fade-in 2000ms ease-in-out 1 forwards;
+  padding: 0.5em 1em 0.5em 1em;
+  border: solid #000 1px;
+}
 
-@media screen and (max-width: 768px){
-  .hero-text-container {
-    font-size: 3rem;
-    justify-content: center;
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  text-align: center;
+  justify-content: center;
+  font-family: grifter;
+  color: #000;
+}
+
+@keyframes fade-in {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
   }
 }
 
-@media screen and (max-width: 425px) {
+.stars {
+  justify-content: center;
+}
+.stars img {
+  max-height: 70px;
+  animation: shimmer 1000ms linear infinite alternate-reverse;
+}
+
+@keyframes shimmer {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.hero button {
+  font-size: 1.5rem;
+  margin-top: 100px;
+  color: #000;
+  border-radius: 10px;
+  border: solid #000 1px;
+  background-color: #fff;
+  transition: all ease-in-out 500ms;
+  padding: 1em;
+  cursor: pointer;
+  font-family: grifter;
+  animation: fade-button 2000ms ease-in-out 1 forwards;
+}
+
+@keyframes fade-button {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+.hero button:hover {
+  /* box-shadow: #000 5px 5px; */
+  transform: translate(-10px, -5px);
+  box-shadow: 10px 10px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #000;
+}
+
+@media screen and (max-width: 1024px) {
   .hero-text-container {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+  
+  .hero-container{
+    margin-top: 150px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text-container {
+    font-size: 2rem;
+    justify-content: center;
   }
 
-  .hero-container {
-    padding: 0 20px;
-  }
   .stars img {
     height: 50px;
+  }
+  .hero {
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px !important;
+    width: 90vw;
+  }
+  .hero-text-container {
+    font-size: 2rem;
+  }
+
+  .stars {
+    display: none !important;
+  }
+  .hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/c.jpg");
+  }
+
+  .hero button {
+    margin-top: 150px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .hero-text-container {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
+  .hero-container{
+    padding: .5em;
+  }
   .stars {
     width: 80px !important;
   }

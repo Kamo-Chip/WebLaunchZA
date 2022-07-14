@@ -9,7 +9,7 @@ const FAQs = () => {
           <div>
             <section>
               <h3>How fast will I receive my website?</h3>
-              <p>Expect results within 5-6 days. However, more complex requests can take longer.</p>
+              <p>Expect results within 5-8 days. However, more complex requests can take longer.</p>
             </section>
             <section>
               <h3>How do I request a site? </h3>

@@ -11,12 +11,10 @@ const PaypalCheckoutButton = (props) => {
   }
 
   return (
-    
     <PayPalButtons
       style={{
         shape: "pill",
         tagline: false,
-        
       }}
       createOrder={(data, actions) => {
         return actions.order.create({

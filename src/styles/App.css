@@ -1,3 +1,8 @@
+@font-face {
+  font-family: mabry;
+  src: url(Mabry-Pro-Medium.ttf);
+}
+
 * { 
   box-sizing: border-box;
 }
@@ -7,7 +12,7 @@
 }
 
 body {
-  font-family: monospace;
+  font-family: mabry;
   background-color: var(--bg-color);
   margin: 0;
   overflow-x: hidden;
@@ -19,11 +24,37 @@ body {
 }
 h1 {
   font-size: 4rem;
+  font-family: mabry, sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .hero, .why {
   height: 100vh;
   overflow-x: hidden;
+  font-family: mabry !important;
+}
+
+.hero, .why, .faq, .pricing, .footer {
+  overflow-x: hidden !important;
 }
 
 @media screen and (max-width: 425px) {

@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
 h1 { 
     margin: 0;
 }
 
 .logo h1 {
     font-size: 2rem !important;
+    color: #fff;
+    font-family: monospace !important;
+    text-decoration: none;
 }
 
 .logo {
     position: absolute;
     top: 0;
     padding: .5em 0 0 1em;
+    z-index: 1000;
 }
 
 @media screen and (max-width: 425px) { 
