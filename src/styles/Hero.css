@@ -139,7 +139,7 @@
   .hero-container {
     display: flex;
     flex-direction: column;
-    margin-top: 170px !important;
+    margin-top: 100px !important;
     width: 90vw;
   }
   .hero-text-container {
@@ -151,7 +151,7 @@
   }
   .hero {
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-image: url("../images/c.jpg");
   }

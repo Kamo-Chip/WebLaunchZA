@@ -6,27 +6,27 @@ import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 const Pricing = () => {
   const landingPage = {
     description: "Landing page",
-    price: 299.0,
+    price: 199.0,
   };
 
   const blog = {
     description: "Blog",
-    price: 499.0,
+    price: 399.0,
   };
 
   const ecommerce = {
     description: "Product Store",
-    price: 1599.0,
+    price: 1999.0,
   };
 
   const hub = {
     description: "Hub",
-    price: 4999.0,
+    price: 2999.0,
   };
 
   const personal = {
     description: "Personal Site",
-    price: 599.0,
+    price: 359.0,
   };
 
   return (
@@ -85,6 +85,31 @@ const Pricing = () => {
               </div>
             </div>
             <div className="tier">
+              <h2>Personal Page</h2>
+              <div
+                style={{
+                  height: "250px",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <span className="price" style={{ marginBottom: "1rem" }}>
+                  ${personal.price}
+                </span>
+                <span>Be seen. Be heard</span>
+                <ul>
+                  <li>3 pages {"(Home, About, Contact)"}</li>
+                  <li>We handle the copy</li>
+                  <li>Consistent branding</li>
+                  <li>Lead capture</li>
+                </ul>
+              </div>
+              <div className="paypal-button-container">
+                <PaypalCheckoutButton product={personal} />
+              </div>
+            </div>
+            <div className="tier">
               <h2>Blog</h2>
               <div
                 style={{
@@ -111,31 +136,7 @@ const Pricing = () => {
                 <PaypalCheckoutButton product={blog} />
               </div>
             </div>
-            <div className="tier">
-              <h2>Personal Page</h2>
-              <div
-                style={{
-                  height: "250px",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <span className="price" style={{ marginBottom: "1rem" }}>
-                  ${personal.price}
-                </span>
-                <span>Be seen. Be heard</span>
-                <ul>
-                  <li>3 pages {"(Home, About, Contact)"}</li>
-                  <li>We handle the copy</li>
-                  <li>Consistent branding</li>
-                  <li>Lead capture</li>
-                </ul>
-              </div>
-              <div className="paypal-button-container">
-                <PaypalCheckoutButton product={personal} />
-              </div>
-            </div>
+
             <div className="tier">
               <h2>Product Store</h2>
               <div
@@ -217,7 +218,8 @@ const Pricing = () => {
               </ul>
               <a
                 href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8HJ67103B77403344MLHLZHI"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 Subscribe
               </a>
