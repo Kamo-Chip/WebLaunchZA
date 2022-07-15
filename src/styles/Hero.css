@@ -26,7 +26,7 @@
 .hero-container {
   background-color: #fff;
   animation: fade-in 2000ms ease-in-out 1 forwards;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 1em;
   border: solid #000 1px;
 }
 
@@ -78,7 +78,7 @@
   color: #000;
   border-radius: 10px;
   border: solid #000 1px;
-  background-color: #fff;
+  background-color: greenyellow;
   transition: all ease-in-out 500ms;
   padding: 1em;
   cursor: pointer;
@@ -111,11 +111,39 @@
   background-color: #000;
 }
 
+@media screen and (min-width: 2560px) {
+  .hero-text-container {
+    font-size: 10rem;
+  }
+  
+  .hero-container{
+    margin-top: 150px;
+  }
+
+  .hero button {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .hero-text-container {
+    font-size: 5rem;
+  }
+  
+  .hero button {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .hero-text-container {
     font-size: 3rem;
   }
   
+  .hero button {
+    font-size: 1.5rem;
+  }
+
   .hero-container{
     margin-top: 150px !important;
   }
@@ -143,7 +171,7 @@
     width: 90vw;
   }
   .hero-text-container {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .stars {

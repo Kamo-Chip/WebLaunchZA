@@ -74,7 +74,7 @@
   color: #000;
   border-radius: 10px;
   border: solid #000 1px;
-  background-color: #fff;
+  background-color: greenyellow;
   transition: all ease-in-out 500ms;
   padding: 1em;
   cursor: pointer;
@@ -83,13 +83,12 @@
 }
 
 .pricing a:hover {
-    transform: translate(-10px, -5px);
-    box-shadow: 10px 10px;
-    color: #fff;
-    border-color: #fff;
-    background-color: #000;
-  }
-  
+  transform: translate(-10px, -5px);
+  box-shadow: 10px 10px;
+  color: #fff;
+  border-color: #fff;
+  background-color: #000;
+}
 
 .pricing h1 {
   padding-left: 50px;
@@ -106,4 +105,38 @@
 .pricing-container {
   display: grid;
   grid-template-rows: auto auto;
+}
+
+@media screen and (min-width: 2560px) {
+  .pricing p {
+    font-size: 2rem;
+  }
+
+  .tier {
+    font-size: 2rem;
+    width: 400px;
+  }
+
+  .tier-content {
+    height: 600px !important;
+  }
+
+  .price {
+    font-size: 3rem;
+  }
+
+  .pricing h2 {
+    height: 100px;
+  }
+
+  .addon ul{
+    font-size: 2.2rem;
+  }
+
+  .addon h2 {
+    font-size: 3rem;
+  }
+  .addon a {
+    font-size: 2rem;
+  }
 }

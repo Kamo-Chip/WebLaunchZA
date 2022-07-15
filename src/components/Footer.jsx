@@ -26,7 +26,7 @@ const Footer = () => {
         >
           <BsTwitter color="gold" />
           <a
-            href="https://mobile.twitter.com/MakersDevv"
+            href="https://mobile.twitter.com/kamo_io"
             target="_blank"
             rel="noreferrer"
           >

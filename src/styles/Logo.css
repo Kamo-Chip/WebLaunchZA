@@ -16,6 +16,13 @@ h1 {
     z-index: 1000;
 }
 
+
+@media screen and (min-width: 2560px) { 
+    .logo h1 {
+        font-size: 3rem !important;
+    }
+}
+
 @media screen and (max-width: 425px) { 
     .logo h1 {
         font-size: 1.5rem !important;

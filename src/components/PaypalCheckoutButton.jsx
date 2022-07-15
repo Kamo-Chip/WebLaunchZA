@@ -11,7 +11,7 @@ const PaypalCheckoutButton = (props) => {
   }
 
   return (
-    <PayPalButtons
+    <PayPalButtons className="pp-btn"
       style={{
         shape: "pill",
         tagline: false,

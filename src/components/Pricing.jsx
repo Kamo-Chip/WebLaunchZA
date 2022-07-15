@@ -60,7 +60,7 @@ const Pricing = () => {
               >
                 <b>Most popular</b>
               </span>
-              <div
+              <div className="tier-content"
                 style={{
                   height: "250px",
                   display: "flex",
@@ -86,7 +86,7 @@ const Pricing = () => {
             </div>
             <div className="tier">
               <h2>Personal Page</h2>
-              <div
+              <div className="tier-content"
                 style={{
                   height: "250px",
                   display: "flex",
@@ -111,7 +111,7 @@ const Pricing = () => {
             </div>
             <div className="tier">
               <h2>Blog</h2>
-              <div
+              <div className="tier-content"
                 style={{
                   height: "250px",
                   display: "flex",
@@ -139,7 +139,7 @@ const Pricing = () => {
 
             <div className="tier">
               <h2>Product Store</h2>
-              <div
+              <div className="tier-content"
                 style={{
                   height: "250px",
                   display: "flex",
@@ -163,7 +163,7 @@ const Pricing = () => {
             </div>
             <div className="tier">
               <h2>Hub</h2>
-              <div
+              <div className="tier-content"
                 style={{
                   height: "250px",
                   display: "flex",
