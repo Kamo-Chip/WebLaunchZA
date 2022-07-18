@@ -26,6 +26,17 @@
   background: #fff;
 }
 
+.tier a {
+  margin-bottom: 2rem;
+  font-size: 1.2rem !important;
+}
+
+.tier a:hover {
+  color: #fff !important;
+  box-shadow: #000 !important;
+  border-color: #000 !important;
+}
+
 .tier span {
   text-align: center;
 }
