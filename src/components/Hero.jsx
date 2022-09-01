@@ -20,7 +20,7 @@ const Hero = () => {
             your presence online
           </small>
         </div>
-        <Link to="pricing" spy={true} smooth={true} offset={0} duration={500}>
+        <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
           <button>Let's work together</button>
         </Link>
       </div>

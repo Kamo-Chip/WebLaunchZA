@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* { 
   box-sizing: border-box;
 }
 
@@ -20,7 +20,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
-
 h1 {
   font-size: 4rem;
   font-family: mabry !important;
@@ -61,14 +60,15 @@ h1 {
 }
 
 @media screen and (min-width: 2560px) {
-  h1 {
+  h1{
     font-size: 6rem;
   }
 }
+
 @media screen and (max-width: 425px) {
   h1 {
     font-size: 3rem;
     text-align: center;
     padding: 0 !important;
   }
-}/*# sourceMappingURL=App.css.map */
+}

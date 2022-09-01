@@ -1,31 +1,29 @@
-h1 { 
-    margin: 0;
+h1 {
+  margin: 0;
 }
 
 .logo h1 {
-    font-size: 2rem !important;
-    color: #000;
-    font-family: monospace !important;
-    text-decoration: none;
+  font-size: 2rem !important;
+  color: #000;
+  font-family: monospace !important;
+  text-decoration: none;
 }
 
 .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: .5em 0 0 1em;
-    z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5em 0 0 1em;
+  z-index: 1000;
 }
 
-
-@media screen and (min-width: 2560px) { 
-    .logo h1 {
-        font-size: 3rem !important;
-    }
+@media screen and (min-width: 2560px) {
+  .logo h1 {
+    font-size: 3rem !important;
+  }
 }
-
-@media screen and (max-width: 425px) { 
-    .logo h1 {
-        font-size: 1.5rem !important;
-    }
-}
+@media screen and (max-width: 425px) {
+  .logo h1 {
+    font-size: 1.5rem !important;
+  }
+}/*# sourceMappingURL=Logo.css.map */

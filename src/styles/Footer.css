@@ -1,66 +1,60 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em 0;
-    background-color: #000;
-    color: #fff;
-    margin-top: 5rem;
-    font-size: 1rem;
-    min-height: 40px;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+  background-color: #000;
+  color: #fff;
+  margin-top: 5rem;
+  font-size: 1rem;
+  min-height: 40px;
+  width: 100vw;
 }
 
 footer span {
-    padding: 0 2em;
-    font-size: 1.5rem;
+  padding: 0 2em;
+  font-size: 1.5rem;
 }
 
 footer a {
-    color: #fff;
-    margin: 0;
-    padding-left: 1em;
-    text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding-left: 1em;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: orange;
+  color: orange;
 }
 
 @media screen and (max-width: 425px) {
-    footer {
-       padding: 2em 0 3em 0;
-       height: 100px;
-    }
-
-    footer span {
-        font-size: 1.2rem !important;
-        padding-bottom: 1rem;
-    }
-
-    footer div {
-        padding: 0 !important;
-        width: 100vw !important;
-        justify-content: space-around;
-    }
-
-    footer div span{
-        padding: 0;
-    }
-
-    footer a {
-        color: #fff;
-        margin: 0;
-        padding-left: .5em;
-        text-decoration: none;
-        font-size: 1.2rem !important;
-    }
-    
+  footer {
+    padding: 2em 0 3em 0;
+    height: 100px;
+  }
+  footer span {
+    font-size: 1.2rem !important;
+    padding-bottom: 1rem;
+  }
+  footer div {
+    padding: 0 !important;
+    width: 100vw !important;
+    justify-content: space-around;
+  }
+  footer div span {
+    padding: 0;
+  }
+  footer a {
+    color: #fff;
+    margin: 0;
+    padding-left: 0.5em;
+    text-decoration: none;
+    font-size: 1.2rem !important;
+  }
 }
-
 @media screen and (min-width: 2560px) {
-    footer span{
-        font-size: 2rem;
-    }
-}
+  footer span {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=Footer.css.map */

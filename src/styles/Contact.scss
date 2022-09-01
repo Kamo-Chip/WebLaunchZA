@@ -2,10 +2,10 @@
   font-family: mabry;
   src: url(Mabry-Pro-Medium.ttf);
 }
+
 .contact {
   min-height: 50vh;
 }
-
 .contact div {
   padding: 0 1rem;
   display: flex;
@@ -55,9 +55,11 @@
   .contact img {
     width: 800px;
   }
+
   .contact p {
     font-size: 4rem;
   }
+
   .contact a {
     font-size: 2.5rem;
   }
@@ -66,29 +68,35 @@
   .contact img {
     width: 500px;
   }
+
   .contact p {
     font-size: 2rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   .contact img {
     width: 300px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .contact img {
     width: 300px;
     margin-top: 2rem;
   }
+
   .contact div {
     flex-direction: column;
   }
+
   .contact p {
     padding: 0;
   }
 }
+
 @media screen and (max-width: 320px) {
   .contact a {
     font-size: 1.2rem;
   }
-}/*# sourceMappingURL=Contact.css.map */
+}
