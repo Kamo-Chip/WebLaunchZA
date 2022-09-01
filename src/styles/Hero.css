@@ -1,203 +1,159 @@
-@font-face {
-  font-family: mabry;
-  src: url(Mabry-Pro-Medium.ttf);
-}
-
-@font-face {
-  font-family: grifter;
-  src: url(grifterbold.otf);
+* {
+  box-sizing: border-box;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  background-color: #101010;
-  color: #fff;
-  font-family: grifter;
-  background-image: url("../images/dent.jpg");
-  background-size: cover;
+  color: #000;
   min-height: 100vh;
   height: fit-content;
-  background-position: center;
 }
 
 .hero-container {
-  background-color: #fff;
   animation: fade-in 2000ms ease-in-out 1 forwards;
-  padding: 1em;
-  border: solid #000 1px;
+  flex-direction: row;
+  padding: 13rem 5rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hero-text-container {
+  font-size: 8rem;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  font-size: 5rem;
-  text-align: center;
-  justify-content: center;
-  font-family: grifter;
-  color: #000;
+}
+
+.hero-text-container small {
+  font-size: 2rem;
+  height: fit-content;
+  padding-top: 1rem;
 }
 
 @keyframes fade-in {
-  0%{
+  0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  75%{
+  75% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
 
-.stars {
-  justify-content: center;
-}
-.stars img {
-  max-height: 70px;
-  animation: shimmer 1000ms linear infinite alternate-reverse;
-}
-
-@keyframes shimmer {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(10deg);
-  }
+.hero a {
+  align-self: flex-end;
 }
 
 .hero button {
   font-size: 1.5rem;
-  margin-top: 100px;
-  color: #000;
-  border-radius: 10px;
-  border: solid #000 1px;
-  background-color: greenyellow;
   transition: all ease-in-out 500ms;
   padding: 1em;
   cursor: pointer;
-  font-family: grifter;
-  animation: fade-button 2000ms ease-in-out 1 forwards;
+  animation: fade-in 6000ms ease-in 1 forwards;
+  height: fit-content;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: #fff 10px 10px;
 }
-
-@keyframes fade-button {
-  0%{
-    opacity: 0;
-  }
-  50%{
-    opacity: 0;
-  }
-  75%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
-
 
 .hero button:hover {
   /* box-shadow: #000 5px 5px; */
   transform: translate(-10px, -5px);
   box-shadow: 10px 10px;
-  color: #fff;
-  border-color: #fff;
-  background-color: #000;
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    padding-top: 10rem;
+    padding-right: 4em;
+  }
+
+  .hero button {
+    margin-right: 0;
+    margin-bottom: 80px;
+    font-size: 1.5rem;
+    padding: 0.5em 1em;
+    width: fit-content;
+  }
 }
 
 @media screen and (min-width: 2560px) {
   .hero-text-container {
-    font-size: 10rem;
-  }
-  
-  .hero-container{
-    margin-top: 150px;
+    font-size: 15rem;
   }
 
-  .hero button {
+  .hero small {
     font-size: 3rem;
   }
-}
 
-@media screen and (max-width: 1440px) {
-  .hero-text-container {
-    font-size: 5rem;
-  }
-  
   .hero button {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .hero-text-container {
-    font-size: 3rem;
-  }
-  
-  .hero button {
-    font-size: 1.5rem;
-  }
-
-  .hero-container{
-    margin-top: 150px !important;
+    font-size: 2.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero-text-container {
-    font-size: 2rem;
-    justify-content: center;
-  }
-
-  .stars img {
-    height: 50px;
-  }
-  .hero {
-    background-position: center;
-  }
-}
-
-@media screen and (max-width: 426px) {
   .hero-container {
-    display: flex;
+    padding: 10rem 2rem;
     flex-direction: column;
-    margin-top: 100px !important;
-    width: 90vw;
   }
+
   .hero-text-container {
-    font-size: 1.8rem;
+    font-size: 6rem;
   }
 
-  .stars {
-    display: none !important;
-  }
-  .hero {
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-image: url("../images/c.jpg");
+  .hero a {
+    align-self: center;
+    margin-top: 80px;
   }
 
+  .hero small {
+    font-size: 1.7rem;
+  }
   .hero button {
-    margin-top: 150px;
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 1em;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .hero-text-container {
+@media screen and (max-width: 425px) {
+  .hero small {
     font-size: 1.5rem;
   }
 
-  .hero-container{
-    padding: .5em;
+  .hero-container {
+    padding: 8rem 1rem;
   }
-  .stars {
-    width: 80px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .hero-text-container {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .hero-text-container {
+    font-size: 4rem;
+  }
+
+  .hero small {
+    font-size: 1.2rem;
+  }
+
+  .hero button {
+    font-size: 1.2rem;
   }
 }

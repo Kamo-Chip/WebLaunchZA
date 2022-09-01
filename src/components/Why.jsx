@@ -1,11 +1,10 @@
 import React from "react";
-import Rocket from "../images/rocket.png";
 import "../styles/Why.css";
 
 const Why = () => {
   return (
     <div className="why">
-      <h1>Why MakersDev?</h1>
+      <h1>This is why you need a website</h1>
       <div className="why-container">
         <div
           style={{
@@ -13,28 +12,32 @@ const Why = () => {
             flexDirection: "column",
           }}
         >
-          <p>At MakersDev we:</p>
-          <ul>
-            <li>
-              Establish your online presence by crafting websites that convert
-              viewers into an <b>audience</b>
-            </li>
-            <li>
-              Specialise in creating websites that present your brand in a
-              unique way
-            </li>
-            <li>Showcase your voice and personality</li>
-            <li>Enable you to become platform independent</li>
-            <li>
-              Open up opportunities for <b>growth</b> and <b>revenue</b>
-            </li>
-          </ul>
           <p>
-            Ready to make your dent on the internet? Pick a plan & we'll see
-            your ideas through from concept to production
+            The private practice sector is growing extremely fast and
+            competition is very high. You should invest in your own website
+            because:
           </p>
+          <h3>Clients need to find you</h3>
+          Potential clients use the internet to find services they need. Little
+          or no online presence will negatively impact your business.{" "}
+          <b>We make you seen.</b>
+          <h3>Protect and grow your professional reputation</h3>
+          Not having an online presence means you do not have control over your
+          reputation. Inaccurate reviews of your services can be made, and this
+          will affect your future prospects.{" "}
+          <b>We help you protect your reputation.</b>
+          <h3>Professionals need to find you</h3>
+          Referring practitioners use the internet as a tool for due diligence.
+          You may have a group of professionals who consistently refer their
+          clients to you, but newer professionals will look online for local,
+          reliable professionals. A fantastic CV is one thing, but colleagues
+          will definitely be impressed if they can instantly access your
+          information online for easy referral.{" "}
+          <b>We show that you're capable.</b>
+          <h3>Be prepared for change</h3>Having only a single channel for new
+          client acquisition is not wise.
+          <b>We diversify your acquisition strategy.</b>
         </div>
-        <img src={Rocket} alt="Rocket" />
       </div>
     </div>
   );

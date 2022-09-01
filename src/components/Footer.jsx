@@ -7,14 +7,13 @@ const Footer = () => {
   return (
     <footer>
       <span style={{ textAlign: "center", padding: ".5em 0" }}>
-        Ready to grow your business? <br />
+        Ready to elevate your practice? <br />
         Let's connect
       </span>
       <div
         style={{
           display: "flex",
           flexDirection: "row",
-          paddingTop: "2em",
         }}
       >
         <span
@@ -22,22 +21,8 @@ const Footer = () => {
             display: "flex",
             flexDirection: "row",
             width: "fit-content",
-          }}
-        >
-          <BsTwitter color="gold" />
-          <a
-            href="https://mobile.twitter.com/kamo_io"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitter
-          </a>
-        </span>
-        <span
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            width: "fit-content",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
           <FiMail color="gold" />

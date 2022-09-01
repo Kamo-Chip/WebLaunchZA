@@ -1,8 +1,4 @@
-@font-face {
-  font-family: mabry;
-  src: url(Mabry-Pro-Medium.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * { 
   box-sizing: border-box;
 }
@@ -12,10 +8,12 @@
 }
 
 body {
-  font-family: mabry;
-  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
   margin: 0;
   overflow-x: hidden;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 #root {
@@ -24,7 +22,7 @@ body {
 }
 h1 {
   font-size: 4rem;
-  font-family: mabry, sans-serif;
+  font-family: mabry !important;
 }
 
 /* width */
@@ -47,10 +45,14 @@ h1 {
   background: #555;
 }
 
-.hero, .why {
+.hero {
   height: 100vh;
   overflow-x: hidden;
   font-family: mabry !important;
+}
+
+.why {
+  height: 100vh;
 }
 
 .hero, .why, .faq, .pricing, .footer {
@@ -62,12 +64,6 @@ h1 {
     font-size: 6rem;
   }
 }
-
-/* @media screen and (max-width: 1440px) {
-  h1{
-    font-size: 3rem;
-  }
-} */
 
 @media screen and (max-width: 425px) {
   h1 {

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: mabry;
+  src: url(Mabry-Pro-Medium.ttf);
+}
+
+.contact {
+  min-height: 50vh;
+}
+.contact div {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact p {
+  font-family: mabry !important;
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+.contact a {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: solid #000 1px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: #fff;
+  transition: all ease-in-out 500ms;
+  padding: 1em;
+  cursor: pointer;
+  font-family: mabry;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  transform: translate(-10px, -5px);
+  box-shadow: 10px 10px;
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+}
+
+.contact h1 {
+  padding-left: 50px;
+  margin: 1em 0 !important;
+}
+
+.contact img {
+  border: #000 solid 2px;
+}
+
+@media screen and (min-width: 2560px) {
+  .contact img {
+    width: 800px;
+  }
+
+  .contact p {
+    font-size: 4rem;
+  }
+
+  .contact a {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact img {
+    width: 500px;
+  }
+
+  .contact p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact img {
+    width: 300px;
+    margin-top: 2rem;
+  }
+
+  .contact div {
+    flex-direction: column;
+  }
+
+  .contact p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact a {
+    font-size: 1.2rem;
+  }
+}

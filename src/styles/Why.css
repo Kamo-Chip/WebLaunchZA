@@ -1,8 +1,8 @@
 .why-container{
     display: grid;
     grid-template-columns: auto auto;
-    font-size: 1.5rem;
     padding: 0 60px;
+    font-size: 1.5rem;
 }
 
 .why h1 {
@@ -15,9 +15,6 @@
     align-self: center;
 }
 
-.why div p {
-    max-width: 800px;
-}
 
 .why {
     height: fit-content;
@@ -26,9 +23,9 @@
 .why-container div {
     border: solid #000 1px;
     border-radius: 15px;
-    background-color: #f1f333;
     color: #000;
-    padding: 0 1em;
+    background-color: #fff;
+    padding: 1em;
     width: fit-content;
     margin-right: 1em;
 }
@@ -83,18 +80,16 @@
     .why-container {
         display: flex;
         flex-direction: column;
-        padding: 0 30px
+        padding: 0 30px;
+        font-size: 1.2rem;
     }
 
     .why-container p {
         text-align: center;
     }
-
-    .why div img {
-        height: 192px;
-        width: 192px;
-        align-self: center;
-        margin: 0;
+    
+    .why ul {
+        padding-left: 20px;
     }
 
     .why-container div {

@@ -5,40 +5,23 @@ import { Link } from "react-scroll";
 const Hero = () => {
   return (
     <div className="hero">
-      <div
-        className="hero-container"
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          marginTop: "200px",
-        }}
-      >
+      <div className="hero-container">
         <div className="hero-text-container">
-          <span>Helping Creators Make A</span>
-          <span style={{ textAlign: "center" }}>
-            <span
-              style={{
-                backgroundColor: "#000",
-                color: "#fff",
-                padding: ".05em .3em",
-              }}
-            >
-              Dent
-            </span>{" "}
-            On The Internet
+          <span>
+            We make <br />
+            your practice
+            <br />
+            great
+            <br />
           </span>
+          <small>
+            By creating beautiful websites to establish
+            <br />
+            your presence online
+          </small>
         </div>
-      </div>
-      <div>
-        <Link
-          activeClass="active"
-          to="pricing"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-        >
-          <button>View Services</button>
+        <Link to="pricing" spy={true} smooth={true} offset={0} duration={500}>
+          <button>Let's work together</button>
         </Link>
       </div>
     </div>
