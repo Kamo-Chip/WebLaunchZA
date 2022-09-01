@@ -33,7 +33,7 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 @-webkit-keyframes fade-in {
@@ -148,10 +148,13 @@
     font-size: 1.4rem;
   }
   .hero-container {
-    padding: 7rem 1rem;
+    padding: 5.5rem 1rem;
   }
   .hero-text-container {
     font-size: 5rem;
+  }
+  .hero-text-container span {
+    line-height: 4.7rem;
   }
 }
 @media screen and (max-width: 375px) {

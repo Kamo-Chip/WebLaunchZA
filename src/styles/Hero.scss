@@ -28,7 +28,7 @@
 .hero-text-container small {
   font-size: 2rem;
   height: fit-content;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 @keyframes fade-in {
@@ -134,11 +134,15 @@
   }
 
   .hero-container {
-    padding: 7rem 1rem;
+    padding: 5.5rem 1rem;
   }
 
   .hero-text-container {
     font-size: 5rem;
+  }
+
+  .hero-text-container span {
+    line-height: 4.7rem;
   }
 }
 
