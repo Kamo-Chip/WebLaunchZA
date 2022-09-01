@@ -30,11 +30,11 @@ footer a:hover {
 
 @media screen and (max-width: 425px) {
   footer {
-    padding: 2em 0 3em 0;
+    padding: 4em 0.3em;
     height: 100px;
   }
   footer span {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     padding-bottom: 1rem;
   }
   footer div {

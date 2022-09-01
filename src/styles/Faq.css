@@ -43,4 +43,9 @@
   .faq-container h3 {
     font-size: 2.7rem;
   }
+}
+@media screen and (max-width: 425px) {
+  .faq-container p {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=Faq.css.map */
