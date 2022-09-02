@@ -21,7 +21,7 @@ const Pricing = () => {
             alignSelf: "center",
           }}
         >
-          <p>Send an email to: </p>
+          <p>Get a quote: </p>
           <a
           data-aos="fade-right"
             href="mailto:hellomakersdev@gmail.com"
