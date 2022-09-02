@@ -35,6 +35,9 @@ const Footer = () => {
           </a>
         </span>
       </div>
+      <span className="local" style={{ padding: "0", fontSize: "0.5rem !important" }}>
+        &copy; 2022 MakersDev | South Africa &#127487;&#127462;
+      </span>
     </footer>
   );
 };

@@ -1,21 +1,28 @@
 import React from "react";
 import "../styles/Faq.css";
 import { BiLinkExternal } from "react-icons/bi";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const FAQs = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
-    <div className="faq">
+    <div data-aos="fade-up" className="faq">
       <h1>FAQs</h1>
       <div className="faq-container">
         <div>
-          <section>
+          <section data-aos="fade-left">
             <h3>How fast will I receive my website?</h3>
             <p>
               Expect results within 1 week. However, more complex requests can
               take longer.
             </p>
           </section>
-          <section>
+          <section data-aos="fade-right">
             <h3>How do I request a site? </h3>
             <p>
               Send an email to{" "}
@@ -29,14 +36,14 @@ const FAQs = () => {
               <BiLinkExternal />
             </p>
           </section>
-          <section>
+          <section data-aos="fade-left">
             <h3>What if I don't like the website? </h3>
             <p>
-              This is very unlikely, but in the off chance that this
-              happens we will revise the site until you're 100% satisfied.
+              This is very unlikely, but in the off chance that this happens we
+              will revise the site until you're 100% satisfied.
             </p>
           </section>
-          <section>
+          <section data-aos="fade-right">
             <h3>How do I host my site?</h3>
             <p>
               We build the website. We assume that you have a domain and hosting

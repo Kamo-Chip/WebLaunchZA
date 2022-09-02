@@ -31,6 +31,9 @@
   width: -moz-fit-content;
   width: fit-content;
   margin-right: 1em;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 
 .why-container ul li {

@@ -17,6 +17,10 @@ footer span {
   font-size: 1.5rem;
 }
 
+.local {
+  font-size: 1rem !important;
+}
+
 footer a {
   color: #fff;
   margin: 0;
@@ -32,6 +36,9 @@ footer a:hover {
   footer {
     padding: 4em 0.3em;
     height: 100px;
+  }
+  .local {
+    font-size: 1rem !important;
   }
   footer span {
     font-size: 1.1rem !important;

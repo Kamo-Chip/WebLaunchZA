@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Hero.css";
 import { Link } from "react-scroll";
+import Logo from "./Logo";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <Logo/>
       <div className="hero-container">
         <div className="hero-text-container">
           <span>
