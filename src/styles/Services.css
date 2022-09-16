@@ -71,6 +71,9 @@ li {
   .item {
     margin-bottom: 3rem;
   }
+  .item ul {
+    padding-left: 1rem;
+  }
 }
 @media screen and (max-width: 425px) {
   .services-container {

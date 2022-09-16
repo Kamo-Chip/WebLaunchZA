@@ -109,7 +109,7 @@
     min-height: -webkit-fit-content;
     min-height: -moz-fit-content;
     min-height: fit-content;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 }
 @media screen and (max-width: 425px) {

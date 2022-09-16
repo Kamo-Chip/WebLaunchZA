@@ -72,7 +72,11 @@ li {
 
     .item {
         margin-bottom: 3rem;
+        ul { 
+            padding-left: 1rem;
+        }
     }
+
 }
 @media screen and(max-width: 425px) {
    
