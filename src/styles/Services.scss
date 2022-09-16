@@ -64,10 +64,6 @@ li {
 }
 
 @media screen and(max-width: 768px) {
-    // h1 {
-    //     font-size: 3rem;
-    // }
-
     .services-container {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
@@ -79,17 +75,17 @@ li {
     }
 }
 @media screen and(max-width: 425px) {
-    // h1 {
-    //     font-size: 2rem;
-    // }
    
     .services-container {
         padding: 0;
+        margin-bottom: 5rem;
+        align-items: center;
     }
 
     .item {
         width: 350px;
         height: fit-content;
+        margin: 0;
     }
 }
 

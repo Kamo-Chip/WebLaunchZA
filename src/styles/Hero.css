@@ -4,6 +4,9 @@
 
 .hero {
   color: #000;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   min-height: 100vh;
 }
 .hero img {
@@ -99,6 +102,14 @@
     margin-top: 2rem;
     max-width: 430px;
     max-height: 276.52px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    margin-bottom: 5rem;
   }
 }
 @media screen and (max-width: 425px) {

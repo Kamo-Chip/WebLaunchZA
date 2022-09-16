@@ -8,10 +8,10 @@ h1 {
 }
 
 .contact {
-  min-height: 100vh;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  padding-bottom: 5rem;
 }
 
 .contact div {

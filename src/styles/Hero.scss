@@ -4,8 +4,8 @@
 
 .hero {
   color: #000;
+  height: fit-content;
   min-height: 100vh;
-  //height: fit-content;
   img {
     max-width: 594.17px;
     max-height: 365px;
@@ -105,6 +105,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: fit-content;
+    margin-bottom: 5rem;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .hero-container {

@@ -75,12 +75,15 @@ li {
 @media screen and (max-width: 425px) {
   .services-container {
     padding: 0;
+    margin-bottom: 5rem;
+    align-items: center;
   }
   .item {
     width: 350px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin: 0;
   }
 }
 @media screen and (max-width: 320px) {
