@@ -11,19 +11,18 @@ const Pricing = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="contact" id="contact">
-      <h1>Let's work together</h1>
+    <div className="contact" id="contact">
+      <h1 data-aos="fade-in">What are you waiting for?</h1>
       <div>
-        <div
+        <div data-aos="fade-in" data-aos-delay="1000"
           style={{
             display: "flex",
             flexDirection: "column",
             alignSelf: "center",
           }}
         >
-          <p>Get a quote: </p>
+          <p>Let's work together:</p>
           <a
-          data-aos="fade-right"
             href="mailto:hellomakersdev@gmail.com"
             target="_blank"
             rel="noreferrer"

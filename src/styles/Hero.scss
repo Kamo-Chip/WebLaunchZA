@@ -5,163 +5,157 @@
 .hero {
   color: #000;
   min-height: 100vh;
-  height: fit-content;
+  //height: fit-content;
+  img {
+    max-width: 594.17px;
+    max-height: 365px;
+    border-radius: 20px;
+    border: #000 solid 2px;
+  }
 }
 
 .hero-container {
-  animation: fade-in 2000ms ease-in-out 1 forwards;
-  flex-direction: row;
-  padding: 13rem 5rem;
-  padding-bottom: 0;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
+  padding: 8rem;
+  padding-bottom: 0;
 }
 
 .hero-text-container {
-  font-size: 8rem;
+  font-size: 4rem;
   text-align: left;
   display: flex;
   flex-direction: column;
 }
 
 .hero-text-container small {
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: fit-content;
   padding-top: 2rem;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .hero a {
-  align-self: flex-end;
-}
-
-.hero button {
-  font-size: 1.5rem;
-  transition: all ease-in-out 500ms;
-  padding: 1em;
+  text-decoration: underline 3px rgba(0, 0, 0, 0);
+  transition: text-decoration-color 500ms;
   cursor: pointer;
-  animation: fade-in 6000ms ease-in 1 forwards;
-  height: fit-content;
-  margin-right: 250px;
-  margin-bottom: 50px;
-  background-color: #000;
-  color: #fff;
-  border-radius: 10px;
-  box-shadow: #fff 10px 10px;
 }
 
-.hero button:hover {
-  /* box-shadow: #000 5px 5px; */
-  transform: translate(-10px, -5px);
-  box-shadow: 10px 10px;
-  color: #000;
-  border-color: #000;
-  background-color: #fff;
+.hero a:hover {
+  text-decoration-color: #000;
 }
 
-@media screen and (max-width: 1024px) {
-  .hero-container {
-    padding-top: 10rem;
-    padding-right: 4em;
-  }
-
-  .hero button {
-    margin-right: 0;
-    margin-bottom: 80px;
-    font-size: 1.5rem;
-    padding: 0.5em 1em;
-    width: fit-content;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .hero-text-container {
-    font-size: 15rem;
-  }
-
-  .hero small {
-    font-size: 3rem;
-  }
-
-  .hero button {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero-container {
-    padding: 10rem 2rem;
-    flex-direction: column;
-  }
-
-  .hero-text-container {
-    font-size: 6rem;
-  }
-
-  .hero a {
-    align-self: center;
-    margin-top: 80px;
-  }
-
-  .hero small {
-    font-size: 1.7rem;
-  }
-  .hero button {
-    margin: 0;
-    font-size: 1.5rem;
-    padding: 1em;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .hero small {
-    font-size: 1.4rem;
-  }
-
-  .hero-container {
-    padding: 5.5rem 1rem;
+@media screen and (min-width: 1800px) {
+  .hero {
+    padding: 0 5rem;
   }
 
   .hero-text-container {
     font-size: 5rem;
+    small {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .hero {
+    padding: 0 10rem;
   }
 
-  .hero-text-container span {
-    line-height: 4.7rem;
+  img {
+    max-width: none !important;
+    max-height: none !important;
+    width: 891.26px;
+    height: 547.5px;
+  }
+
+  .hero-container {
+    padding: 12rem 2rem;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .hero {
+    padding: 0 20rem;
+  }
+
+  .hero-text-container {
+    font-size: 7rem;
+    small {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-container {
+    padding: 3rem 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text-container {
+    text-align: center !important;
+  }
+  .hero img {
+    margin-top: 2rem;
+    max-width: 430px;
+    max-height: 276.52px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .hero-container {
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .hero-text-container {
+    font-size: 2.6rem;
+    small {
+      font-size: 1.1rem;
+    }
+  }
+
+  .hero img {
+    margin-top: 2rem;
+    max-width: 360px;
+    max-height: 228.53px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .hero-text-container {
-    font-size: 5rem;
+    font-size: 2.4rem;
+    small {
+      font-size: 1.2rem;
+    }
+  }
+
+  .hero img {
+    margin-top: 2rem;
+    max-width: 333px;
+    max-height: 207.75px;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 375px) {
   .hero-text-container {
-    font-size: 4rem;
+    font-size: 2rem;
+    font-weight: 500;
+    small {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
   }
 
-  .hero small {
-    font-size: 1.2rem;
-  }
-
-  .hero button {
-    font-size: 1.2rem;
+  .hero img {
+    margin-top: 2rem;
+    max-width: 303px;
+    max-height: 188.86px;
   }
 }

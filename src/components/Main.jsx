@@ -1,16 +1,16 @@
 import Hero from "./Hero";
-import Why from "./Why";
+import About from "./About";
 import Pricing from "./Contact";
-import FAQs from "./FAQs";
+import Services from "./Services";
 import Footer from "./Footer";
 
 const Main = () => {
   return (
     <>
       <Hero />
-      <Why/>
+      <About/>
+      <Services />
       <Pricing />
-      <FAQs />
       <Footer />
     </>
   );
