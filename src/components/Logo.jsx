@@ -64,7 +64,7 @@ const Logo = () => {
             </li>
           </ul>
         </div>
-        <GrMenu className="menu-icon" onClick={showNav} size="1.3rem"/>
+        <GrMenu className="menu-icon" onClick={showNav} size="1.7rem"/>
       </div>
     </div>
   );
