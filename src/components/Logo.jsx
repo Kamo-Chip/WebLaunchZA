@@ -3,10 +3,9 @@ import { Link } from "react-scroll";
 import { GrMenu } from "react-icons/gr";
 
 const Logo = () => {
-  let trackNav = false;
+  let trackNav = true;
   const showNav = () => {
     const nav = document.querySelector(".navigation");
-
     if (trackNav) {
       nav.style.display = "flex";
       trackNav = false;
