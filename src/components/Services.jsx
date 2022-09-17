@@ -42,25 +42,24 @@ const Services = () => {
           <h2>Google My Business Management</h2>
           <p style={{ textAlign: "center" }}>
             A hands-off solution for getting higher rankings and being more
-            visible online
+            visible online.
           </p>
           <ul>
             <li>
               A Google Business Profile helps ensure that people find your
               business when looking for products and services like yours in
-              their local area
+              their local area.
             </li>
             <li>
-              We optimise your profile so that your potential customers know
-              where and how to visit you.
+              We optimise your profile by using ahead of the curve techniques,
+              so that you constantly rank high on local searches.
             </li>
             <li>
               We save you time, by helping you avoid the hassle of managing your
               profile, such as responding to reviews, updating your details,
               montioring spam, curating Q&A's, monitoring competitor
-              performance, and so on. This list can go on for much longer. We
-              handle all of this for you so that you can focus on doing what you
-              do best!
+              performance, and so on. This list goes on for much longer. We
+              handle all of this for you so that you can focus on doing what you do best!
             </li>
           </ul>
         </div>

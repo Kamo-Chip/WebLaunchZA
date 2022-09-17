@@ -17,8 +17,8 @@ const About = () => {
       data-aos-easing="ease-in"
     >
       <div className="img-container">
-        <img src={Web} />
-        <img src={Gmb} />
+        <img src={Web} alt="Web design service"/>
+        <img src={Gmb} alt="GMB service"/>
       </div>
       <div className="text-container">
         <h1>Competition is higher than ever. Stand-out from the crowd</h1>

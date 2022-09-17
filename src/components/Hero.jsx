@@ -29,7 +29,7 @@ const Hero = () => {
             <b>Google Business Profile</b>
           </small>
         </div>
-        <img src={HeroImg} />
+        <img src={HeroImg} alt="Phone"/>
       </div>
     </div>
   );
