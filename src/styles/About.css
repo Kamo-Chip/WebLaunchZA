@@ -9,6 +9,7 @@
 
 .text-container h1 {
   font-size: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .img-container {
@@ -19,15 +20,17 @@
   max-width: 700px;
   margin-bottom: 3rem;
   border-radius: 20px;
-  border: solid #000 2px;
 }
 
 .text-container {
   padding-left: 5rem;
 }
 .text-container p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  line-height: 1.81rem;
 }
 
 @media screen and (min-width: 2300px) {
@@ -89,5 +92,13 @@
   }
   .text-container p {
     text-align: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text-container p {
+    padding: 0 1rem;
+  }
+  .img-container img {
+    width: 250px;
   }
 }/*# sourceMappingURL=About.css.map */

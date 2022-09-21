@@ -10,7 +10,6 @@
     max-width: 594.17px;
     max-height: 365px;
     border-radius: 20px;
-    border: #000 solid 2px;
   }
 }
 
@@ -33,16 +32,11 @@
   font-size: 1.5rem;
   height: fit-content;
   padding-top: 2rem;
+  font-family: Inter, sans-serif;
 }
 
 .hero a {
-  text-decoration: underline 3px rgba(0, 0, 0, 0);
-  transition: text-decoration-color 500ms;
   cursor: pointer;
-}
-
-.hero a:hover {
-  text-decoration-color: #000;
 }
 
 @media screen and (min-width: 1800px) {
@@ -131,6 +125,10 @@
     margin-top: 2rem;
     max-width: 360px;
     max-height: 228.53px;
+  }
+
+  .hero {
+    margin-bottom: 15rem;
   }
 }
 

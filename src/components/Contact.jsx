@@ -21,13 +21,13 @@ const Pricing = () => {
             alignSelf: "center",
           }}
         >
-          <p>Let's work together:</p>
+          <p>Let's work together!</p>
           <a
             href="mailto:hellomakersdev@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            hellomakersdev@gmail.com
+            Contact us
           </a>
         </div>
         <img alt="" src={Work1} />

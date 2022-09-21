@@ -1,27 +1,48 @@
 import "../styles/Logo.css";
 import { Link } from "react-scroll";
-import { GrMenu } from "react-icons/gr";
+import { HiMenuAlt4, HiX } from "react-icons/hi";
+import LogoIcon from "../images/logo.png";
+import { useEffect } from "react";
+import Aos from "aos";
+import { useState } from "react";
 
 const Logo = () => {
-  let trackNav = true;
+  //let trackNav = true;
+  const [trackNav, setTrackNav] = useState(true);
   const showNav = () => {
     const nav = document.querySelector(".navigation");
     if (trackNav) {
       nav.style.display = "flex";
-      trackNav = false;
+      setTrackNav(false);
     } else {
       nav.style.display = "none";
-      trackNav = true;
+      setTrackNav(true);
     }
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
+  useEffect(() => {}, [trackNav]);
+
   return (
     <div className="logo">
-      <span>{"</> MakersDev"}</span>
+      <span>
+        <img
+          src={LogoIcon}
+          style={{ height: "60px", border: "none" }}
+          alt="</>"
+        />
+        {" MakersDev"}
+      </span>
       <div
         style={{
           display: "flex",
           flexDirection: "row",
+          position: "absolute",
+          right: "0",
+          paddingRight: ".5rem",
         }}
       >
         <div className="navigation">
@@ -63,7 +84,11 @@ const Logo = () => {
             </li>
           </ul>
         </div>
-        <GrMenu className="menu-icon" onClick={showNav} size="1.7rem"/>
+        {trackNav ? (
+          <HiMenuAlt4 className="menu-icon" onClick={showNav} size="1.7rem" />
+        ) : (
+          <HiX className="menu-icon" onClick={showNav} size="1.7rem" />
+        )}
       </div>
     </div>
   );

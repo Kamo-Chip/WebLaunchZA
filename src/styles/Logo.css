@@ -5,6 +5,9 @@
   text-decoration: none;
   cursor: pointer;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -16,15 +19,18 @@
   padding-bottom: 0;
   z-index: 10000;
 }
+.logo img {
+  margin: 0;
+}
 
 .navigation ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding-right: 5rem;
   font-size: 1.5rem;
   margin: 0;
   padding-top: 0.6rem;
+  font-family: Inter !important;
 }
 
 .navigation li {
@@ -36,7 +42,7 @@
     font-size: 2.8rem !important;
   }
   .navigation ul {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 600px) {
@@ -48,6 +54,9 @@
   .logo span {
     font-size: 1.5rem !important;
   }
+  .logo img {
+    height: 50px !important;
+  }
   .navigation ul {
     padding-right: 0;
   }
@@ -56,8 +65,11 @@
   .navigation {
     display: none;
   }
+  .logo img {
+    height: 40px !important;
+  }
   .navigation ul {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0;
     flex-direction: column;
   }

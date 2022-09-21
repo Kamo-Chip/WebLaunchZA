@@ -11,6 +11,7 @@
 
 .services h1 {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -21,23 +22,29 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.81rem;
   padding: 0 5rem;
 }
 
 .item {
-  padding: 0 1rem;
-  background-color: #fff;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.505);
   border-radius: 20px;
   margin: 0 1rem 3rem 1rem;
   width: 80%;
   justify-self: center;
-  box-shadow: 10px 10px #000;
-  border: solid 3px #000;
+}
+.item p,
+.item li {
+  font-family: Inter, sans-serif;
 }
 
-li {
+.item li {
   padding-bottom: 1rem;
+  list-style: circle;
 }
 
 @media screen and (min-width: 2300px) {
@@ -80,6 +87,9 @@ li {
     padding: 0;
     margin-bottom: 5rem;
     align-items: center;
+  }
+  .services h1 {
+    margin: 0 !important;
   }
   .item {
     width: 350px;

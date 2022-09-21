@@ -13,7 +13,6 @@
   max-width: 594.17px;
   max-height: 365px;
   border-radius: 20px;
-  border: #000 solid 2px;
 }
 
 .hero-container {
@@ -37,20 +36,11 @@
   height: -moz-fit-content;
   height: fit-content;
   padding-top: 2rem;
+  font-family: Inter, sans-serif;
 }
 
 .hero a {
-  -webkit-text-decoration: underline 3px rgba(0, 0, 0, 0);
-          text-decoration: underline 3px rgba(0, 0, 0, 0);
-  transition: -webkit-text-decoration-color 500ms;
-  transition: text-decoration-color 500ms;
-  transition: text-decoration-color 500ms, -webkit-text-decoration-color 500ms;
   cursor: pointer;
-}
-
-.hero a:hover {
-  -webkit-text-decoration-color: #000;
-          text-decoration-color: #000;
 }
 
 @media screen and (min-width: 1800px) {
@@ -129,6 +119,9 @@
     margin-top: 2rem;
     max-width: 360px;
     max-height: 228.53px;
+  }
+  .hero {
+    margin-bottom: 15rem;
   }
 }
 @media screen and (max-width: 375px) {

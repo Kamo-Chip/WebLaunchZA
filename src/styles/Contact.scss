@@ -1,14 +1,8 @@
-@font-face {
-  font-family: mabry;
-  src: url(Mabry-Pro-Medium.ttf);
-}
-
 h1 {
   margin: 0;
   margin-bottom: 5rem;
 }
 .contact {
-  //min-height: 80vh;
   height: fit-content;
   padding-bottom: 5rem;
 }
@@ -21,7 +15,7 @@ h1 {
 }
 
 .contact p {
-  font-family: mabry !important;
+  font-family: Inter, sans-serif;
   font-size: 3rem;
   padding-right: 2rem;
 }
@@ -36,16 +30,8 @@ h1 {
   transition: all ease-in-out 500ms;
   padding: 1em;
   cursor: pointer;
-  font-family: mabry;
+  font-family: Inter, sans-serif;
   text-decoration: none;
-}
-
-.contact a:hover {
-  transform: translate(-10px, -5px);
-  box-shadow: 10px 10px;
-  color: #000;
-  border-color: #000;
-  background-color: #fff;
 }
 
 .contact h1 {
@@ -54,7 +40,6 @@ h1 {
 
 .contact img {
   border-radius: 20px;
-  border: #000 solid 2px;
 }
 
 @media screen and (min-width: 2300px) {
@@ -105,11 +90,8 @@ h1 {
 
   .contact p {
     padding: 0;
+    text-align: center;
   }
-
-  // h1 {
-  //   font-size: 2rem;
-  // }
 }
 
 @media screen and (max-width: 320px) {
