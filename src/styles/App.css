@@ -11,9 +11,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   background-image: url("../images/background.jpg");
-  background-position: center;
+  background-position: left;
   background-size: cover;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
 }
 
 #root {
@@ -80,5 +80,10 @@ h2 {
     text-align: center;
     padding: 0 !important;
     margin-bottom: 1rem !important;
+  }
+  body {
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }/*# sourceMappingURL=App.css.map */
