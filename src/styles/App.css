@@ -82,8 +82,7 @@ h2 {
     margin-bottom: 1rem !important;
   }
   body {
-    background-image: url("../images/bgmobile.jpg");
     background-position: center;
-    background-size: cover;
+    background-attachment: unset;
   }
 }/*# sourceMappingURL=App.css.map */
