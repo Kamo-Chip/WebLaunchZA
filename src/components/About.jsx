@@ -2,8 +2,7 @@ import "../styles/About.css";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Gmb from "../images/gmb.png";
-import Web from "../images/web.jpg";
+import duck from "../images/duck.jpg";
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 3000 });
@@ -17,8 +16,7 @@ const About = () => {
       data-aos-easing="ease-in"
     >
       <div className="img-container">
-        <img src={Web} alt="Web design service" />
-        <img src={Gmb} alt="GMB service" />
+        <img src={duck} alt="one orange duck surrounded by yellow ducks" />
       </div>
       <div className="text-container">
         <h1>Competition is higher than ever. Stand-out from the crowd</h1>

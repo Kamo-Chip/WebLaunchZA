@@ -18,8 +18,8 @@ h2 {
 
 .services-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
   font-size: 1.25rem;
   font-weight: 500;
   font-style: normal;
@@ -28,6 +28,8 @@ h2 {
 }
 
 .item {
+  display: grid;
+  grid-template-rows: auto auto;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.505);
   border-radius: 20px;
@@ -37,6 +39,12 @@ h2 {
   p,
   li {
     font-family: Inter, sans-serif;
+  }
+  button {
+    justify-self: center;
+  }
+  h2 {
+    line-height: 1em;
   }
 }
 

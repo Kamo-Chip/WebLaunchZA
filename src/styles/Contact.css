@@ -10,39 +10,89 @@ h1 {
   padding-bottom: 5rem;
 }
 
-.contact div {
+.contact-container {
   padding: 0 1rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.contact p {
-  font-family: Inter, sans-serif;
-  font-size: 3rem;
-  padding-right: 2rem;
 }
 
 .contact a {
-  font-size: 1.5rem;
-  border-radius: 10px;
-  border: solid #000 3px;
-  background-color: #000;
-  color: #fff;
-  box-shadow: #fff;
-  transition: all ease-in-out 500ms;
-  padding: 1em;
+  color: rgb(61, 112, 179);
   cursor: pointer;
-  font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
 .contact h1 {
-  padding-left: 50px;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .contact img {
+  border-radius: 20px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: Inter, sans-serif;
+}
+
+.contact-form-container {
+  background-color: rgba(255, 255, 255, 0.505);
+  padding: 2em;
+  border-radius: 20px;
+  display: flex;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+  font-family: Inter, sans-serif;
+  margin-bottom: 1.5rem;
+  border: solid rgb(158, 158, 158) 1px;
+  padding: 0.5em;
+}
+
+button {
+  width: 150px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 0.5em 0.8em;
+  background-color: #000;
+  color: #fff;
+  border: solid #000 1px;
+  font-family: Mabry, sans-serif;
+  align-self: center;
+  transition: all 500ms ease-in;
+}
+
+button:hover {
+  box-shadow: 10px 10px #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.details-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.505);
+  padding: 1em;
   border-radius: 20px;
 }
 
@@ -50,44 +100,49 @@ h1 {
   .contact {
     padding: 0 10rem;
   }
-  .contact img {
-    width: 800px;
-  }
-  .contact p {
-    font-size: 4rem;
-  }
   .contact a {
     font-size: 2.5rem;
   }
 }
-@media screen and (max-width: 1200px) {
-  .contact img {
-    width: 500px;
+@media screen and (max-width: 1440px) {
+  .details-container {
+    padding: 2em 2.5em;
   }
-  .contact p {
+  .contact-details {
     font-size: 2rem;
+  }
+  input, textarea {
+    font-size: 1.5rem;
+  }
+  .contact-form-container {
+    padding: 3em 3.5em;
+  }
+  h2 {
+    font-size: 2.4rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .contact img {
-    width: 300px;
+  .contact-wrapper {
+    flex-direction: column-reverse;
+  }
+  .details-container {
+    margin-top: 3rem;
   }
 }
 @media screen and (max-width: 425px) {
-  .contact img {
-    width: 300px;
-    margin-top: 2rem;
+  .contact-details {
+    font-size: 1.2rem;
   }
-  .contact div {
-    flex-direction: column;
-  }
-  .contact p {
-    padding: 0;
-    text-align: center;
+  input,
+textarea {
+    padding: 0.3em;
   }
 }
 @media screen and (max-width: 320px) {
-  .contact a {
-    font-size: 1.2rem;
+  .contact-details span {
+    padding-right: 0.5em !important;
+  }
+  .contact-form-container {
+    padding: 1em;
   }
 }/*# sourceMappingURL=Contact.css.map */

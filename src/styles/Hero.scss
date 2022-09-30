@@ -13,6 +13,13 @@
   }
 }
 
+.hero a {
+  transition: all 1000ms ease-in;
+}
+
+.hero a:hover {
+  transform: scale(1.1);
+}
 .hero-container {
   display: flex;
   justify-content: space-between;

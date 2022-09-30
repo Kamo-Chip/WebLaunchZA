@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "../styles/Hero.css";
 import Logo from "./Logo";
 import HeroImg from "../images/hero.png";
+import { FaWhatsappSquare } from "react-icons/fa";
 import Aos from "aos";
 const Hero = () => {
   useEffect(() => {
@@ -17,19 +18,54 @@ const Hero = () => {
             Get Found 🔎
             <br />
           </span>
-          <span data-aos="fade-left" data-aos-delay="1500" data-aos-easing="ease">
+          <span
+            data-aos="fade-left"
+            data-aos-delay="1500"
+            data-aos-easing="ease"
+          >
             Get Leads 🧲 <br />
           </span>
-          <span data-aos="fade-left" data-aos-delay="2500" data-aos-easing="ease">
+          <span
+            data-aos="fade-left"
+            data-aos-delay="2500"
+            data-aos-easing="ease"
+          >
             Get Customers 📈
           </span>
-          <small data-aos="fade-in" data-aos-delay="3000" data-aos-easing="ease-in">
+          <small
+            data-aos="fade-in"
+            data-aos-delay="3000"
+            data-aos-easing="ease-in"
+          >
             We establish your business's online presence <br />
             by building you a stellar <b>website</b> and managing <br /> your{" "}
             <b>Google Business Profile</b>
           </small>
         </div>
-        <img src={HeroImg} alt="Phone"/>
+        <img src={HeroImg} alt="Phone" />
+      </div>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "0",
+          right: "0",
+          zIndex: "1000",
+        }}
+      >
+        <a
+          href="https://wa.me/270724802452"
+          target="_blank"
+          rel="noreferrer"
+          title="Message us on WhatsApp"
+        >
+          <FaWhatsappSquare
+            color="#25D366"
+            size="4rem"
+            style={{
+              padding: "0 .5rem .5rem 0",
+            }}
+          />
+        </a>
       </div>
     </div>
   );

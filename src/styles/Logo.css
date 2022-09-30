@@ -21,6 +21,7 @@
 }
 .logo img {
   margin: 0;
+  max-width: 60px !important;
 }
 
 .navigation ul {
