@@ -13,7 +13,7 @@ const Services = () => {
     <div className="services" id="services">
       <h1>This is how we help you</h1>
       <div className="services-container">
-        <div className="item">
+        <div className="item" data-aos="fade-left" data-aos-easing="ease">
           <h2>Website development</h2>
           <span
             style={{
@@ -51,7 +51,7 @@ const Services = () => {
             </li>
           </ul>
         </div>
-        <div className="item">
+        <div className="item" data-aos="fade-right" data-aos-easing="ease">
           <h2>Google Business Profile Set Up</h2>
           <span
             style={{
@@ -87,7 +87,7 @@ const Services = () => {
             </div>
           </ul>
         </div>
-        <div className="item">
+        <div className="item" data-aos="fade-left" data-aos-easing="ease">
           <h2>Google Business Profile Management</h2>
           <p style={{ textAlign: "center" }}>
             A hands-off solution for getting higher rankings and being more
