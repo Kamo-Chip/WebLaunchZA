@@ -11,11 +11,20 @@
 
 .services h1 {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 h2 {
   text-align: center;
+}
+
+ul div li {
+  list-style-position: inside !important;
+  list-style-type: "- " !important;
+}
+
+li::marker {
+  margin: 0;
 }
 
 .services-container {
@@ -30,8 +39,8 @@ h2 {
 }
 
 .item {
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.505);
   border-radius: 20px;
@@ -48,6 +57,7 @@ h2 {
 }
 .item h2 {
   line-height: 1em;
+  height: 70px;
 }
 
 .item li {
@@ -56,38 +66,49 @@ h2 {
 }
 
 @media screen and (min-width: 2300px) {
-  .services {
-    padding: 0 20rem;
-  }
   .services-container {
     font-size: 2rem;
-    padding: 0 4rem;
   }
-  .item {
-    width: 800px;
+  .item p, .item li {
+    line-height: 1.45em;
   }
 }
 @media screen and (max-width: 1200px) {
   .item {
     padding: 0 2rem;
-    width: 90%;
+    width: 50%;
+    margin-bottom: 6rem;
   }
   .services-container {
     padding: 0;
     grid-gap: 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .services-container {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     justify-content: center;
   }
+  .item h2 {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .services h1 {
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
   .item {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    width: 70%;
   }
   .item ul {
     padding-left: 1rem;
+  }
+  .item h2 {
+    margin-bottom: 0 !important;
   }
 }
 @media screen and (max-width: 425px) {
@@ -106,7 +127,7 @@ h2 {
     height: -moz-fit-content;
     height: fit-content;
     margin: 0;
-    margin-top: 2.5rem;
+    margin-top: 5rem;
   }
 }
 @media screen and (max-width: 320px) {

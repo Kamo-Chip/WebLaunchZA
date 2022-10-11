@@ -57,6 +57,7 @@ const Hero = () => {
           target="_blank"
           rel="noreferrer"
           title="Message us on WhatsApp"
+          
         >
           <FaWhatsappSquare
             color="#25D366"
@@ -64,6 +65,7 @@ const Hero = () => {
             style={{
               padding: "0 .5rem .5rem 0",
             }}
+            className="whatsapp"
           />
         </a>
       </div>

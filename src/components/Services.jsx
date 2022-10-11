@@ -13,8 +13,21 @@ const Services = () => {
     <div className="services" id="services">
       <h1>This is how we help you</h1>
       <div className="services-container">
-        {/* <div className="item" data-aos="fade-right">
-          <h2>Website Development</h2>
+        <div className="item">
+          <h2>Website development</h2>
+          <span
+            style={{
+              position: "absolute",
+              backgroundColor: "#00e3d0",
+              color: "#fff",
+              fontFamily: "Mabry, sans-serif",
+              borderRadius: "20px",
+              transform: "rotate(-10deg) translate(-20%, -40px)",
+              padding: ".5em",
+            }}
+          >
+            <b>Most popular</b>
+          </span>
           <p style={{ textAlign: "center" }}>
             This is not just a website. This is the face of your business.
           </p>
@@ -37,100 +50,42 @@ const Services = () => {
               confidently provide high quality work in a short period of time.
             </li>
           </ul>
-          <button>Learn More</button>
         </div>
-        <div className="item" data-aos="fade-left">
-          <h2>Google My Business Management</h2>
-          <p style={{ textAlign: "center" }}>
-            A hands-off solution for getting higher rankings and being more
-            visible online.
-          </p>
-          <ul>
-            <li>
-              A Google Business Profile helps ensure that people find your
-              business when looking for products and services like yours in
-              their local area.
-            </li>
-            <li>
-              We optimise your profile by using ahead of the curve techniques,
-              so that you constantly rank high on local searches.
-            </li>
-            <li>
-              We save you time, by helping you avoid the hassle of managing your
-              profile, such as responding to reviews, updating your details,
-              montioring spam, curating Q&A's, monitoring competitor
-              performance, and so on. This list goes on for much longer. We
-              handle all of this for you so that you can focus on doing what you do best!
-            </li>
-          </ul>
-          <button>Learn More</button>
-        </div> */}
         <div className="item">
           <h2>Google Business Profile Set Up</h2>
-          <p style={{ textAlign: "center" }}>
-            A hands-off solution for getting higher rankings and being more
-            visible online.
-          </p>
-          <ul>
-            <li>
-              A Google Business Profile helps ensure that people find your
-              business when looking for products and services like yours in
-              their local area.
-            </li>
-            <li>
-              We optimise your profile by using ahead of the curve techniques,
-              so that you constantly rank high on local searches.
-            </li>
-            <li>
-              We save you time, by helping you avoid the hassle of managing your
-              profile, such as responding to reviews, updating your details,
-              montioring spam, curating Q&A's, monitoring competitor
-              performance, and so on. This list goes on for much longer. We
-              handle all of this for you so that you can focus on doing what you
-              do best!
-            </li>
-          </ul>
-          <button>Learn More</button>
-        </div>
-        <div className="item">
-          <h2>Website development</h2>
           <span
             style={{
               position: "absolute",
-              backgroundColor: "#000",
+              backgroundColor: "#00e3d0",
               color: "#fff",
               fontFamily: "Mabry, sans-serif",
               borderRadius: "20px",
-              transform: "rotate(-10deg) translate(-30%, -40px)",
+              transform: "rotate(-10deg) translate(-5%, -60px)",
               padding: ".5em",
+              textAlign: "center",
             }}
           >
-            <b>Most popular</b>
+            <b>Free if paired with GBP management</b>
           </span>
           <p style={{ textAlign: "center" }}>
-            A hands-off solution for getting higher rankings and being more
-            visible online.
+            The best way to get started if you don't already have a google
+            business profile
           </p>
           <ul>
             <li>
-              A Google Business Profile helps ensure that people find your
-              business when looking for products and services like yours in
-              their local area.
+              We set up your profile according to industry best practices and
+              current standards
             </li>
-            <li>
-              We optimise your profile by using ahead of the curve techniques,
-              so that you constantly rank high on local searches.
-            </li>
-            <li>
-              We save you time, by helping you avoid the hassle of managing your
-              profile, such as responding to reviews, updating your details,
-              montioring spam, curating Q&A's, monitoring competitor
-              performance, and so on. This list goes on for much longer. We
-              handle all of this for you so that you can focus on doing what you
-              do best!
-            </li>
+            <li>The service includes:</li>
+            <div>
+              <li>Account creation</li>
+              <li>Profile creation</li>
+              <li>Profile verification</li>
+              <li>Profile optimisation</li>
+              <li>Avatar design</li>
+              <li>Cover design</li>
+            </div>
           </ul>
-          <button>Learn More</button>
         </div>
         <div className="item">
           <h2>Google Business Profile Management</h2>
@@ -140,11 +95,6 @@ const Services = () => {
           </p>
           <ul>
             <li>
-              A Google Business Profile helps ensure that people find your
-              business when looking for products and services like yours in
-              their local area.
-            </li>
-            <li>
               We optimise your profile by using ahead of the curve techniques,
               so that you constantly rank high on local searches.
             </li>
@@ -157,7 +107,6 @@ const Services = () => {
               do best!
             </li>
           </ul>
-          <button>Learn More</button>
         </div>
       </div>
     </div>

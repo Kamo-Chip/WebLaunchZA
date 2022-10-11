@@ -48,8 +48,11 @@ const Pricing = () => {
           className="contact-wrapper"
         >
           <div className="details-container">
+            <h3>Our details:</h3>
             <div className="contact-details" style={{}}>
-              <span style={{ paddingRight: "1.5em"}}><MdEmail/></span>
+              <span style={{ paddingRight: "1.5em" }}>
+                <MdEmail />
+              </span>
               <a
                 href="mailto:hellomakersdev@gmail.com"
                 target="_blank"
@@ -59,16 +62,26 @@ const Pricing = () => {
               </a>
             </div>
             <div className="contact-details">
-              <span style={{ paddingRight: "1.5em" }}><BsTelephoneFill/></span>
+              <span style={{ paddingRight: "1.5em" }}>
+                <BsTelephoneFill />
+              </span>
               <span>072 480 2452</span>
             </div>
           </div>
           <div className="contact-form-container">
             <form ref={form} onSubmit={sendEmail}>
-              <h2 style={{margin: "0 0 2rem 0"}}>Contact Us</h2>
-              <input type="text" name="user_name" placeholder="Enter your name"/>
-              <input type="email" name="user_email" placeholder="Enter your email"/>
-              <textarea name="message" placeholder="Enter your message"/>
+              <h2 style={{ margin: "0 0 2rem 0" }}>Contact Us</h2>
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Enter your name"
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Enter your email"
+              />
+              <textarea name="message" placeholder="Enter your message" />
               <button type="submit">Send</button>
             </form>
           </div>

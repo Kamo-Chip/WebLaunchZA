@@ -36,12 +36,18 @@
 @media screen and (min-width: 2300px) {
   .about {
     padding: 0 10rem;
+    min-height: 80vh;
+    margin: 0;
   }
   .about h1 {
     font-size: 5rem;
   }
-  .text-container p {
+  .about .text-container p {
     font-size: 2rem;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    line-height: 2.61rem;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -53,6 +59,7 @@
   .about h1 {
     margin: 0;
     margin-top: 2rem;
+    text-align: center;
   }
   .img-container {
     display: flex;
@@ -60,7 +67,7 @@
     align-items: center;
   }
   .text-container {
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
   .img-container {

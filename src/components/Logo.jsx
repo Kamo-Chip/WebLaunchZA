@@ -7,7 +7,6 @@ import Aos from "aos";
 import { useState } from "react";
 
 const Logo = () => {
-  //let trackNav = true;
   const [trackNav, setTrackNav] = useState(true);
   const showNav = () => {
     const nav = document.querySelector(".navigation");

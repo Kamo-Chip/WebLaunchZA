@@ -1,13 +1,12 @@
-h1 {
-  margin: 0;
-  margin-bottom: 5rem;
-}
-
 .contact {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 5rem;
+}
+.contact h1 {
+  margin: 0;
+  margin-bottom: 5rem !important;
 }
 
 .contact-container {
@@ -64,6 +63,13 @@ textarea {
   margin-bottom: 1.5rem;
   border: solid rgb(158, 158, 158) 1px;
   padding: 0.5em;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: "Mabry";
+  margin-top: 0;
+  font-size: 1.8rem;
 }
 
 button {
@@ -98,20 +104,58 @@ button:hover {
 
 @media screen and (min-width: 2300px) {
   .contact {
-    padding: 0 10rem;
+    padding: 0 20rem;
+    padding-bottom: 5rem;
   }
-  .contact a {
+  .contact-details {
     font-size: 2.5rem;
+  }
+  .details-container {
+    padding: 1.8em;
+  }
+  .details-container h3 {
+    font-size: 2.8rem;
+  }
+  input,
+textarea {
+    font-size: 2rem;
+  }
+  .contact-form-container {
+    padding: 3em 3.5em;
+  }
+  .contact-form-container h2 {
+    font-size: 3.2rem;
+  }
+  .contact-form-container button {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .contact-details {
+    font-size: 1.6rem;
+  }
+  .details-container {
+    padding: 1.8em;
+  }
+  .details-container h3 {
+    font-size: 2rem;
+  }
+  .contact-form-container {
+    padding: 3em 3.5em;
+  }
+  .contact-form-container h2 {
+    font-size: 3rem;
+  }
+  .contact-container {
+    padding: 0 20rem;
   }
 }
 @media screen and (max-width: 1440px) {
   .details-container {
     padding: 2em 2.5em;
   }
-  .contact-details {
-    font-size: 2rem;
-  }
-  input, textarea {
+  input,
+textarea {
     font-size: 1.5rem;
   }
   .contact-form-container {
@@ -121,7 +165,7 @@ button:hover {
     font-size: 2.4rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contact-wrapper {
     flex-direction: column-reverse;
   }
@@ -136,6 +180,13 @@ button:hover {
   input,
 textarea {
     padding: 0.3em;
+    font-size: 1.2rem;
+  }
+  .contact-form-container {
+    padding: 1.5em 2em;
+  }
+  .details-container {
+    padding: 1.2em;
   }
 }
 @media screen and (max-width: 320px) {
@@ -144,5 +195,8 @@ textarea {
   }
   .contact-form-container {
     padding: 1em;
+  }
+  .details-container {
+    padding: 1.2em 0.8em;
   }
 }/*# sourceMappingURL=Contact.css.map */
