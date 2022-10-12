@@ -5,6 +5,8 @@
 .services {
   min-height: 100vh;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .services h1 {
@@ -21,8 +23,15 @@ ul div li {
   list-style-type: "- " !important;
 }
 
-li::marker {
-  margin: 0;
+.price {
+  font-family: "Mabry";
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: .6em;
+  text-decoration: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .services-container {
   display: grid;
@@ -54,6 +63,9 @@ li::marker {
   h2 {
     line-height: 1em;
     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 

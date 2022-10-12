@@ -28,6 +28,22 @@ const Services = () => {
           >
             <b>Most popular</b>
           </span>
+          <span
+            style={{
+              textAlign: "center",
+            }}
+            className="price"
+          >
+            <span
+              style={{
+                color: "#000",
+                textDecoration: "line-through",
+              }}
+            >
+              <span style={{ color: "#000", padding: ".5em .5em .5em 0"}}>R3000</span>
+            </span>
+            <span>R2000</span>
+          </span>
           <p style={{ textAlign: "center" }}>
             This is not just a website. This is the face of your business.
           </p>
@@ -67,6 +83,14 @@ const Services = () => {
           >
             <b>Free if paired with GBP management</b>
           </span>
+          <span
+            style={{
+              textAlign: "center",
+            }}
+            className="price"
+          >
+            R1000
+          </span>
           <p style={{ textAlign: "center" }}>
             The best way to get started if you don't already have a google
             business profile
@@ -89,6 +113,14 @@ const Services = () => {
         </div>
         <div className="item" data-aos="fade-left" data-aos-easing="ease">
           <h2>Google Business Profile Management</h2>
+          <span
+            style={{
+              textAlign: "center",
+            }}
+            className="price"
+          >
+            R500 p/m
+          </span>
           <p style={{ textAlign: "center" }}>
             A hands-off solution for getting higher rankings and being more
             visible online.
