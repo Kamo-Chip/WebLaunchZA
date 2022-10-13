@@ -35,7 +35,7 @@ const Services = () => {
           >
             40% Off
           </p>
-          <p>Website development sale</p>
+          <p>Website development</p>
           <small>*Ends on 26 October 2022</small>
         </div>
       </div>
