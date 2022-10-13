@@ -65,7 +65,7 @@ const Pricing = () => {
               <span style={{ paddingRight: "1.5em" }}>
                 <BsTelephoneFill />
               </span>
-              <span>072 480 2452</span>
+              <a href="tel:+2772-480-2452">072 480 2452</a>
             </div>
           </div>
           <div className="contact-form-container">

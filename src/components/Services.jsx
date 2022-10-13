@@ -12,15 +12,43 @@ const Services = () => {
   return (
     <div className="services" id="services">
       <h1>This is how we help you</h1>
+      <div className="sale">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            width: "fit-content",
+            textAlign: "center",
+            background: "#ba52ff",
+            color: "#fff",
+            padding: ".5em 1em 2em 1em",
+            borderRadius: "20px",
+          }}
+          data-aos="fade-up"
+          data-aos-easing="ease"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+        >
+          <p
+            style={{ fontFamily: "Mabry, sans-serif", marginBottom: "0" }}
+            className="percentage"
+          >
+            40% Off
+          </p>
+          <p>Website development sale</p>
+          <small>*Ends on 26 October 2022</small>
+        </div>
+      </div>
+
       <div className="services-container">
         <div className="item" data-aos="fade-left" data-aos-easing="ease">
           <h2>Website development</h2>
           <span
             style={{
               position: "absolute",
-              backgroundColor: "#00e3d0",
+              backgroundColor: "#00cbba",
               color: "#fff",
-              fontFamily: "Mabry, sans-serif",
+              fontFamily: "Inter, sans-serif",
               borderRadius: "20px",
               transform: "rotate(-10deg) translate(-20%, -40px)",
               padding: ".5em",
@@ -36,13 +64,20 @@ const Services = () => {
           >
             <span
               style={{
-                color: "#000",
+                color: "rgb(100, 100, 100)",
                 textDecoration: "line-through",
               }}
             >
-              <span style={{ color: "#000", padding: ".5em .5em .5em 0"}}>R3000</span>
+              <span
+                style={{
+                  color: "rgb(100, 100, 100)",
+                  padding: ".5em .5em .5em 0",
+                }}
+              >
+                R2000
+              </span>
             </span>
-            <span>R2000</span>
+            <span>R1200</span>
           </span>
           <p style={{ textAlign: "center" }}>
             This is not just a website. This is the face of your business.
@@ -72,16 +107,16 @@ const Services = () => {
           <span
             style={{
               position: "absolute",
-              backgroundColor: "#00e3d0",
+              backgroundColor: "#00cbba",
               color: "#fff",
-              fontFamily: "Mabry, sans-serif",
+              fontFamily: "Inter, sans-serif",
               borderRadius: "20px",
               transform: "rotate(-10deg) translate(-5%, -60px)",
               padding: ".5em",
               textAlign: "center",
             }}
           >
-            <b>Free if paired with GBP management</b>
+            <b>50% off if paired with GBP management</b>
           </span>
           <span
             style={{
