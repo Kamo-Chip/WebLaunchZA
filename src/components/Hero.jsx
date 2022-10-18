@@ -23,7 +23,7 @@ const Hero = () => {
             data-aos-delay="1500"
             data-aos-easing="ease"
           >
-            Get Leads 🧲 <br />
+            Get Leads 🧲
           </span>
           <span
             data-aos="fade-left"
@@ -37,9 +37,7 @@ const Hero = () => {
             data-aos-delay="3000"
             data-aos-easing="ease-in"
           >
-            We establish your business's online presence <br />
-            by building you a stellar <b>website</b> and managing <br /> your{" "}
-            <b>Google Business Profile</b>
+            We establish your business online with ease. At an affordable price
           </small>
         </div>
         <img src={HeroImg} alt="Phone" />

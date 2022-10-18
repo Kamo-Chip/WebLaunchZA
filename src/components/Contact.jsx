@@ -36,7 +36,7 @@ const Pricing = () => {
 
   return (
     <div className="contact" id="contact">
-      <h1 data-aos="fade-in">
+      <h1>
         What are you waiting for?
         <br />
         Let's work together!
@@ -44,7 +44,7 @@ const Pricing = () => {
       <div className="contact-container">
         <div
           data-aos="fade-in"
-          data-aos-delay="1000"
+          data-aos-delay="500"
           className="contact-wrapper"
         >
           <div className="details-container">

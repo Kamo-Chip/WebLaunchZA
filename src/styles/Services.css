@@ -18,6 +18,7 @@
 
 h2 {
   text-align: center;
+  font-weight: normal;
 }
 
 ul div li {
@@ -35,7 +36,8 @@ ul div li {
   font-size: 1.8rem;
   margin: 0.5em 0;
 }
-.sale small {
+
+.services small {
   font-size: 1rem;
   font-family: "Inter", sans-serif;
 }
@@ -46,7 +48,7 @@ ul div li {
 
 .price {
   font-family: "Mabry";
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin-top: 0.6em;
   -webkit-text-decoration: #00cbba;
@@ -65,6 +67,20 @@ ul div li {
   font-style: normal;
   line-height: 1.81rem;
   padding: 0 5rem;
+}
+
+.packages-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.81rem;
+  padding: 0 5rem;
+}
+.packages-container span {
+  height: 87px;
 }
 
 .item {
@@ -97,13 +113,37 @@ ul div li {
   list-style: circle;
 }
 
+@media screen and (min-width: 1440px) {
+  .packages-container h2 {
+    margin-top: 0;
+  }
+  .packages-container .price {
+    margin: 0;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+}
 @media screen and (min-width: 2300px) {
-  .services-container {
+  .services-container,
+.packages-container {
     font-size: 2rem;
   }
   .item p,
 .item li {
     line-height: 1.45em;
+  }
+  .sale div {
+    padding: 1em 1.5em;
+  }
+  .sale p {
+    font-size: 4rem;
+  }
+  .services small {
+    font-size: 2rem;
+  }
+  .percentage {
+    font-size: 5rem !important;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -112,13 +152,15 @@ ul div li {
     width: 50%;
     margin-bottom: 6rem;
   }
-  .services-container {
+  .services-container,
+.packages-container {
     padding: 0;
     grid-gap: 0;
   }
 }
 @media screen and (max-width: 1024px) {
-  .services-container {
+  .services-container,
+.packages-container {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -127,6 +169,11 @@ ul div li {
     height: -webkit-fit-content !important;
     height: -moz-fit-content !important;
     height: fit-content !important;
+  }
+  .packages-container span {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 @media screen and (max-width: 768px) {
@@ -142,7 +189,8 @@ ul div li {
   }
 }
 @media screen and (max-width: 425px) {
-  .services-container {
+  .services-container,
+.packages-container {
     padding: 0;
     margin-bottom: 5rem;
     grid-template-rows: auto auto;
@@ -155,12 +203,27 @@ ul div li {
     margin: 0;
     margin-top: 5rem;
   }
+  .packages-container {
+    margin-bottom: 0;
+  }
+  .packages-container .item {
+    margin-top: 3rem;
+  }
+  .price {
+    font-size: 2rem;
+  }
   .sale {
     margin-bottom: 1rem;
   }
   .sale p {
     font-size: 1.4rem;
     margin: 0.5em 0;
+  }
+}
+@media screen and (max-width: 376px) {
+  .disclaimer {
+    margin-top: 2rem;
+    padding: 0 2em;
   }
 }
 @media screen and (max-width: 320px) {
