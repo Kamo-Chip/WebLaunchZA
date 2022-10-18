@@ -38,6 +38,11 @@
     padding: 0 2rem;
 }
 
+@media screen and (min-width: 2560px) {
+    .navigation {
+        padding-right: 20rem;
+    }
+}
 @media screen and(min-width: 1500px) {
     .logo span {
         font-size: 2.8rem !important;
