@@ -48,7 +48,7 @@ const About = () => {
             Our services have proven to be an extremely effective way of
             improving your visibility, and we can confidently say that we will
             make you seen! So let us handle the hassle of putting your business
-            online so that you can focus doing what you do best!
+            online so that you can focus on doing what you do best!
           </p>
         </div>
       </div>

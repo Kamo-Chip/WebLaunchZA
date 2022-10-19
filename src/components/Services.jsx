@@ -36,13 +36,15 @@ const Services = () => {
             40% Off
           </p>
           <p>Website development</p>
-          <small>*Ends on 26 October 2022</small>
+          <small>*Ends on 31 October 2022</small>
         </div>
       </div>
       <h2
         style={{
           textAlign: "center",
         }}
+        data-aos="fade-in"
+        data-aos-easing="ease"
       >
         Individual services
       </h2>
@@ -161,9 +163,7 @@ const Services = () => {
               We save you time, by helping you avoid the hassle of managing your
               profile
             </li>
-            <li>
-              What we do:
-            </li>
+            <li>What we do:</li>
             <div>
               <li>Respond to reviews</li>
               <li>Keep your details up to date</li>
@@ -178,6 +178,8 @@ const Services = () => {
         style={{
           textAlign: "center",
         }}
+        data-aos="fade-in"
+        data-aos-easing="ease"
       >
         Packages
       </h2>
