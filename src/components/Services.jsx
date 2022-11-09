@@ -30,7 +30,7 @@ const Services = () => {
           data-aos-duration="2000"
         >
           <p
-            style={{ fontFamily: "Mabry, sans-serif", marginBottom: "0" }}
+            style={{ fontFamily: "mabry, sans-serif", marginBottom: "0" }}
             className="percentage"
           >
             40% Off

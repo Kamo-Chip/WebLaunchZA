@@ -1,92 +1,201 @@
-.logo span {
-    font-size:1.8rem !important;
-    color: #000;
-    font-family: monospace !important;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  padding: 0.5em 1em;
+  //margin-bottom: 3rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
 }
 
 .logo {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: .8rem .5rem;
-    padding-bottom: 0;
-    z-index: 10000;
-    img{
-        margin: 0;
-        max-width: 60px !important;
-    }
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: 1.8rem;
+  font-weight: bold;
+  img {
+    height: 60px;
+    width: 60px;
+    margin: 0 !important;
+  }
 }
 
-.navigation ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    font-size: 1.5rem;
-    margin: 0;
-    padding-top: .6rem;
-    font-family: Inter !important;
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
 }
 
 .navigation li {
-    padding: 0 2rem;
+  list-style: none;
+}
+.nav-list li a {
+  margin: 0 1.5rem;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// .nav-list li a:hover {
+//   color: var(--accent2);
+// }
+
+.nav-on {
+  display: flex !important;
+  flex-direction: column;
+  color: #fff;
+  right: -300px;
+  top: 0;
+  padding-right: 1.5em;
+  background-color: #ffffff;
+  height: 100vh;
+  z-index: 5;
+  position: fixed;
+  animation: slideIn 500ms ease 0ms 1 forwards;
+}
+
+.nav-off {
+  display: flex !important;
+  flex-direction: column;
+  color: #000;
+  right: 0;
+  top: 0;
+  padding-right: 1.5em;
+  height: 100vh;
+  z-index: 5;
+  position: fixed;
+  animation: slideOut 500ms ease 0ms 1 forwards;
+}
+
+@keyframes slideOut {
+  100% {
+    right: -300px;
+  }
+}
+
+@keyframes slideIn {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideInSocials {
+  100% {
+    margin-right: 0;
+  }
+}
+.nav-icon-container {
+  display: none;
+}
+
+.nav-socials {
+  display: none;
+  margin-right: -300px;
+}
+
+.nav-socials-on {
+  display: flex;
+  animation: slideInSocials 500ms ease 0ms 1 forwards;
+}
+
+.nav-socials a {
+  color: #fff;
+}
+
+.disappear {
+  display: none !important;
+}
+
+@media screen and (min-width: 2000px) {
+  .navigation {
+    padding: 1em 2em;
+  }
+
+  .nav-list {
+    font-size: 3rem;
+  }
+
+  .logo {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+    padding-top: 2rem;
+    width: 45%;
+  }
+
+  .nav-list li {
+    padding: 0.8em 0;
+    width: fit-content;
+  }
+
+  .nav-icon-container {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5em 1em 0 0;
+    z-index: 15;
+  }
+
+  .nav-socials {
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 5em;
+    z-index: 15;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    span {
+      font-family: mabry, sans-serif;
+      text-align: center;
+      padding: 0 .3em;
+      margin-bottom: .5em;
+    }
+  }
+
+  .logo {
+    padding: 0.2em;
+  }
+}
+
+@keyframes fadeIn {
+  
 }
 
 @media screen and (min-width: 2560px) {
-    .navigation {
-        padding-right: 20rem;
-    }
-}
-@media screen and(min-width: 1500px) {
-    .logo span {
-        font-size: 2.8rem !important;
-    }
-
-    .navigation ul {
-        font-size: 2rem;
-    }
+  .navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1em 5em;
+  }
 }
 
-@media screen and(min-width: 600px){
-    .menu-icon {
-        display: none;
-    }
-}
+@media screen and (max-width: 425px) {
+  .navigation {
+    padding: .5em 0;
+  }
 
-@media screen and(max-width: 1024px) {
-    .logo span {
-        font-size: 1.5rem !important;
-    }  
-    .logo img {
-        height: 50px !important;
+  .logo {
+    font-size: 1.7rem;
+    img {
+      height: 50px;
+      width: 50px;
     }
-
-    .navigation ul {
-        padding-right: 0;
-    }
-}
-
-@media screen and(max-width: 600px){
-    .navigation {
-        display: none;
-    }
-
-    .logo img {
-        height: 40px !important;
-    }
-
-    .navigation ul {
-        font-size: 1rem;
-        padding: 0;
-        flex-direction: column;
-        li {
-            padding: 0;
-        }
-    }
+  }
 }

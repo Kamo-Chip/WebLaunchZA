@@ -113,6 +113,10 @@ ul div li {
   list-style: circle;
 }
 
+.disclaimer {
+  font-family: mabry !important;
+}
+
 @media screen and (min-width: 1440px) {
   .packages-container h2 {
     margin-top: 0;
@@ -220,7 +224,7 @@ ul div li {
     margin: 0.5em 0;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
   .disclaimer {
     margin-top: 2rem;
     padding: 0 2em;

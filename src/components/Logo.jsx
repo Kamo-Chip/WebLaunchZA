@@ -1,95 +1,108 @@
 import "../styles/Logo.css";
 import { Link } from "react-scroll";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { AiFillInstagram } from "react-icons/ai";
 import LogoIcon from "../images/logo.png";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Aos from "aos";
-import { useState } from "react";
 
 const Logo = () => {
-  const [trackNav, setTrackNav] = useState(true);
-  const showNav = () => {
-    const nav = document.querySelector(".navigation");
-    if (trackNav) {
-      nav.style.display = "flex";
-      setTrackNav(false);
+  const [showNavItems, setShowNavItems] = useState(false);
+
+  const toggleNav = () => {
+    const nav = document.querySelector(".nav-list");
+
+    if (showNavItems) {
+      nav.classList.remove("nav-on");
+      nav.classList.add("nav-off");
+      document.querySelector(".nav-socials").classList.add("disappear");
+      document.querySelector(".nav-icon-container").style.position = "absolute";
+      setShowNavItems(false);
     } else {
-      nav.style.display = "none";
-      setTrackNav(true);
+      nav.classList.remove("nav-off");
+      nav.classList.add("nav-on");
+      document.querySelector(".nav-socials").classList.remove("disappear");
+      document.querySelector(".nav-socials").classList.add("nav-socials-on");
+      document.querySelector(".nav-icon-container").style.position = "fixed";
+      setShowNavItems(true);
     }
   };
+
+  const closeNav = () => {
+    setShowNavItems(false);
+    toggleNav();
+  };
+
+  useEffect(() => {}, [showNavItems]);
 
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
 
-  useEffect(() => {}, [trackNav]);
-
   return (
-    <div className="logo">
-      <span>
-        <img
-          src={LogoIcon}
-          style={{ height: "60px", border: "none" }}
-          alt="</>"
-        />
-        {" MakersDev"}
+    <nav className="navigation">
+      <span className="logo">
+        <img src={LogoIcon} alt="burger-icon" />
+        MakersDev
       </span>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          position: "absolute",
-          right: "0",
-          paddingRight: ".5rem",
-        }}
-      >
-        <div className="navigation">
-          <ul className="list">
-            <li className="list-item">
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-20}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li className="list-item">
-              <Link
-                activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                offset={-20}
-                duration={500}
-              >
-                Services
-              </Link>
-            </li>
-            <li className="list-item">
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-20}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+      <div className="nav-items-container">
+        <div onClick={toggleNav} className="nav-icon-container">
+          {showNavItems ? <HiX size="2rem" /> : <HiMenuAlt4 size="2rem" />}
         </div>
-        {trackNav ? (
-          <HiMenuAlt4 className="menu-icon" onClick={showNav} size="1.7rem" />
-        ) : (
-          <HiX className="menu-icon" onClick={showNav} size="1.7rem" />
-        )}
+        <ul className="nav-list">
+          <li>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={closeNav}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={closeNav}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={closeNav}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+        <div className="nav-socials">
+          <span>
+            Follow us to be the first to know about sales & other updates ⚡
+          </span>
+          <a
+            href="https://www.instagram.com/makersdev/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "#fff" }}
+            onClick={closeNav}
+          >
+            <AiFillInstagram size="1.7rem" color="#000" />
+          </a>
+        </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
