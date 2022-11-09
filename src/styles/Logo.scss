@@ -199,3 +199,13 @@
     }
   }
 }
+
+@media screen and (max-width: 320px) {
+  .nav-socials {
+    padding-bottom: 9em;
+  }
+
+  .nav-list {
+    width: 50%;
+  }
+}

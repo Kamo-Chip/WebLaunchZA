@@ -12,6 +12,7 @@ const Footer = () => {
         &copy; 2022 MakersDev &#127487;&#127462;
       </span>
       <span className="socials">
+        <span>Stay connected with us</span>
         <a href="https://www.instagram.com/makersdev/"  target="_blank" rel="noreferrer">
           <AiFillInstagram size="2rem" />
         </a>
