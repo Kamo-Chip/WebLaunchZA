@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import "../styles/Hero.css";
-import Logo from "./Logo";
 import HeroImg from "../images/hero.png";
 import { FaWhatsappSquare } from "react-icons/fa";
 import Aos from "aos";
@@ -11,7 +10,6 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <Logo />
       <div className="hero-container">
         <div className="hero-text-container">
           <span data-aos="fade-left" data-aos-easing="ease">

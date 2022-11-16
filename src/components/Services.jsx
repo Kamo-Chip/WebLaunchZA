@@ -36,7 +36,7 @@ const Services = () => {
             40% Off
           </p>
           <p>Website development</p>
-          <small>*Ends on 14 November 2022</small>
+          <small>*Ends on 28 November 2022</small>
         </div>
       </div>
       <h2
