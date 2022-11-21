@@ -29,8 +29,10 @@ const Logo = () => {
   };
 
   const closeNav = () => {
-    setShowNavItems(false);
-    toggleNav();
+    if (showNavItems) {
+      setShowNavItems(false);
+      toggleNav();
+    }
   };
 
   useEffect(() => {}, [showNavItems]);
