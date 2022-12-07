@@ -139,9 +139,9 @@ export default function Post({ postData }) {
             <Link href="https://www.instagram.com/makersdev/">
               <AiFillInstagram size={"2rem"} />
             </Link>
-            <Link href="https://twitter.com/kamo_io">
+            {/* <Link href="https://twitter.com/kamo_io">
               <AiOutlineTwitter size={"2rem"} />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
