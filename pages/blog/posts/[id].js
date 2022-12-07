@@ -64,7 +64,7 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
         <meta name="description" content={postData.description} key="desc" />
         <meta name="keywords" content={postData.keywords} />
-        <meta property="og:description" content={postData.preview} />
+        <meta property="og:description" content={postData.description} />
         <meta property="og:image" content={`/${postData.image}`} />
         <meta name="author" content="Kamogelo Khumalo" />
       </Head>
