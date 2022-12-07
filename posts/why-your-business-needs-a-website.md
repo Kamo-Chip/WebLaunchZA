@@ -8,7 +8,7 @@ preview: 'Gone are the days of putting up posters on streetlight poles, and thin
 keywords: 'how to create a business website, starting a website business, make a business website, affordable web design company, why i need a website'
 description: 'There are many reasons why your business needs a website. Here we discuss the top 4 reasons why you need a website'
 ---
-Gone are the days of putting up posters on streetlight poles, and thinking that that is enough to get customers. To ensure your business's success in today’s climate you need to have a solid online presence. There are numerous reasons why you may be hesitant to get a website. Perhaps you feel that you are not tech-savvy enough or that it's too costly (at [MakersDev](https://makers-dev-next.vercel.app/) our pricing is specifically tailored for small to medium-sized businesses, so you will not worry about cost when dealing with us).
+Gone are the days of putting up posters on streetlight poles, and thinking that that is enough to get customers. To ensure your business's success in today’s climate you need to have a solid online presence. There are numerous reasons why you may be hesitant to get a website. Perhaps you feel that you are not tech-savvy enough or that it's too costly (at [MakersDev](https://makersdev.com/ "Home page containing more information") our pricing is specifically tailored for small to medium-sized businesses, so you will not worry about cost when dealing with us).
 Regardless of your hesitation, the fact remains that a website has a massive impact on your business’s success. These are the top 4 reasons why you need a website:
 
 ## Customers use Google to find products/services
@@ -38,4 +38,4 @@ Many businesses get calls from customers asking simple questions about things su
 
 A website is an integral part of today's successful businesses. Streetlight pole advertising could only get you so far. A website provides a vast amount of upside for your business 
 
-Click [here](https://makers-dev-next.vercel.app/) to learn about MakersDev and how we can help your business succeed online. 
+Click [here](https://makersdev.com "Home page containing more information") to learn about MakersDev and how we can help your business succeed online. 
