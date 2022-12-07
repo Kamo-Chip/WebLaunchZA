@@ -58,8 +58,8 @@ export default function Blog({ allPostsData }) {
                     priority
                     src={`/${image}`}
                     alt={imageAlt}
-                    width={100}
-                    height={50}
+                    width={517}
+                    height={506}
                   />
                   <div className="blogPreviewText">
                     <span>{tag}</span>

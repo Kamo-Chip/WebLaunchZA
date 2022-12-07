@@ -117,7 +117,7 @@ export default function Post({ postData }) {
               alt="Kamogelo Khumalo"
               width={60}
               height={60}
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%"}}
             />
             <div
               style={{
