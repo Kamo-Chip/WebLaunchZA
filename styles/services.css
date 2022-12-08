@@ -20,10 +20,10 @@ ul div li {
   display: flex;
   justify-content: center;
   margin-bottom: 6rem;
-  font-family: "Mabry";
+  font-family: "Inter"
 }
 .sale p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0.5em 0;
 }
 

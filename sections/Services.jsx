@@ -11,16 +11,16 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <h1>This is how we help you</h1>
-      {/* <div className="sale">
+      <div className="sale">
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             width: "fit-content",
             textAlign: "center",
-            background: "#ba52ff",
+            background: "#5b00cb",
             color: "#fff",
-            padding: "1em 1.5em 2.5em 1.5em",
+            padding: "2em",
             borderRadius: "20px",
           }}
           data-aos="fade-up"
@@ -29,15 +29,15 @@ const Services = () => {
           data-aos-duration="2000"
         >
           <p
-            style={{ fontFamily: "mabry, sans-serif", marginBottom: "0" }}
+            style={{ fontFamily: "grifter, sans-serif", margin: "0" }}
             className="percentage"
           >
-            40% Off
+            30% Off
           </p>
           <p>Website development</p>
-          <small>*Ends on 28 November 2022</small>
+          <small>*Ends on 28 December 2022</small>
         </div>
-      </div> */}
+      </div>
       <h2
         style={{
           textAlign: "center",
@@ -51,6 +51,7 @@ const Services = () => {
         <Item
           serviceName={"Website design & development"}
           price={"1 500"}
+          salePrice={"1050"}
           tagLine={
             "This is not just a website. This is the face of your business."
           }
@@ -108,6 +109,7 @@ const Services = () => {
         <Item
           serviceName={"Starter"}
           price={"2 000"}
+          salePrice={"1550"}
           tagLine={"Get started on the right track, and ensure your success"}
           perkList={["Web development", "Google Business profile set up"]}
         />

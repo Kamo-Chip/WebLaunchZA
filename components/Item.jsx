@@ -1,4 +1,11 @@
-const Item = ({ serviceName, price, tagLine, perkList, furtherPerkList }) => {
+const Item = ({
+  serviceName,
+  price,
+  salePrice,
+  tagLine,
+  perkList,
+  furtherPerkList,
+}) => {
   return (
     <div className="item" data-aos="fade-left" data-aos-easing="ease">
       <h3>{serviceName}</h3>
@@ -22,15 +29,19 @@ const Item = ({ serviceName, price, tagLine, perkList, furtherPerkList }) => {
             {serviceName === "Google Business Profile management"
               ? "Most popular"
               : serviceName === "Starter"
-              ? "Save R250"
+              ? "Save R450"
               : "Save R250"}
           </b>
         </span>
       ) : null}
-      <span
-        className="price"
-        dangerouslySetInnerHTML={{ __html: `R ${price}` }}
-      />
+      {!salePrice ? (
+        <span
+          className="price"
+          dangerouslySetInnerHTML={{ __html: `R ${price}` }}
+        />
+      ) : (
+        <span className="price"><span style={{marginRight: ".5em", color: "grey"}}><s>R {price}</s></span> R {salePrice}</span>
+      )}
       <p style={{ textAlign: "center" }}>{tagLine}</p>
       <ul>
         {perkList.map((perk, idx) => {
