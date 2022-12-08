@@ -124,12 +124,8 @@ a {
   }
 }
 
-/* .hero,
-.why,
-.faq,
-.pricing,
-.footer {
-  overflow-x: hidden !important;
+/* .about, .testimonials, .services {
+  margin-bottom: 5rem;
 } */
 
 @media screen and (min-width: 2000px) {
