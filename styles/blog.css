@@ -82,8 +82,10 @@
 .blogPost p img{
   display: block;
   margin: auto;
-  width: 90%;
+  max-width: 90%;
+  width: auto;
   height: auto;
+  max-height: 600px;
 }
 
 .blogPost em {
