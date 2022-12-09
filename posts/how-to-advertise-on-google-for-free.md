@@ -8,12 +8,10 @@ preview: 'Advertisements are a great way to generate buzz and interest around yo
 keywords: 'free google advertising, how to advertise your business for free, how to advertise on google for free, i want to advertise my business for free, manage google business account, my local business'
 description: 'Advertising can be very expensive. In this article we discuss how you can advertise on Google for free.'
 ---
-Advertisements are a great way to generate buzz and interest around your business, and ad services recognise this, which is why they charge big bucks for it. 
+Advertisements are a great way to generate buzz and interest around your business, and ad services recognise this, which is why they charge big bucks for it. These prices are not very practical when operating on a tight budget, so does this mean that your hopes of advertising on Google are pointless? Of course not. There's a free option to get your business seen on Google. Yes free. It's called a Google Business Profile. 
 
 [![Recommonded beginner daily budget for Google Ads](/postImages/googleads.jpg)](https://www.myggsa.co.za/how-much-does-google-adwords-cost-in-south-africa/)
 *Recommonded beginner daily budget for Google Ads*
-
-These prices are not very practical when operating on a tight budget, so does this mean that your hopes of advertising on Google are pointless? Of course not. There's a free option to get your business seen on Google. Yes free. It's called a Google Business Profile. 
 
 ## What is a google business profile?
 
@@ -31,7 +29,7 @@ But what makes the Google Business Profile great is that it gives you control ov
 ![Business details of one the businesses](/postImages/gmb3.PNG)
 *Business details of Mthombeni Holdings And Projects (a client of ours)*
 
-This way customers form an opinion regarding your business. Now there is a lot more to discuss here, but for convenience's sake, if you wish to learn more about this, contact us for a free consultation about the Google Business Profile and how it can help your business. 
+This way customers form an opinion regarding your business. Now there is a lot more to discuss here, but for convenience's sake, if you wish to learn more about this, [contact us](https://makersdev.com/#contact "Home page containing more information") for a free consultation about the Google Business Profile and how it can help your business. 
 
 ## How to get it to rank
 
