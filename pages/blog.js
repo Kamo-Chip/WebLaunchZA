@@ -56,7 +56,7 @@ export default function Blog({ allPostsData }) {
                 <li className="blogPreviewDetails">
                   <Image
                     priority
-                    src={`/${image}`}
+                    src={`/postImages/${image}`}
                     alt={imageAlt}
                     width={517}
                     height={506}

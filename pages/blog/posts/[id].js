@@ -147,7 +147,7 @@ export default function Post({ postData }) {
 
         <Image
           priority
-          src={`/${postData.image}`}
+          src={`/postImages/${postData.image}`}
           alt={postData.imageAlt}
           width={517}
           height={506}

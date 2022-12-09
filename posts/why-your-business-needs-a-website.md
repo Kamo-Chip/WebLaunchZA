@@ -27,7 +27,7 @@ Something great for your business is that not many businesses in South Africa ha
 
 Your business is limited by the number of potential customers it has access to (there are only so many streetlights in your vicinity to put posters on). If you only operate locally from a physical location, the number of customers you can reach is restricted. A website, on the other hand, connects you to anyone with internet access all over the country and beyond. 
 
-[![Chart showing percentage of population that are internet users in south africa](/sauser.jpg)](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=ZA&start=1990&view=chart)
+[![Chart showing percentage of population that are internet users in south africa](/postImages/sauser.jpg)](https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2020&locations=ZA&start=1990&view=chart)
 *Chart showing the percentage of the population that are internet users in South Africa*
 
 The number of internet users in South Africa is rapidly growing. Meaning that the number of your potential customers is increasing, but you will only be able to leverage this growth by getting a website.
