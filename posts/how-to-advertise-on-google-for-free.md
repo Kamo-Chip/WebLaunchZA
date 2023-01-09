@@ -1,6 +1,6 @@
 ---
 title: 'How To Advertise On Google For Free'
-date: '2022-12-09'
+date: '2023-01-04'
 tag: 'Google Business Profile'
 image: 'post2img.webp'
 imageAlt: 'hand holding phone with local business profile listing"'
