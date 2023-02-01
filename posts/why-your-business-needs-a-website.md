@@ -1,6 +1,6 @@
 ---
 title: 'Why Your Business Needs a Website'
-date: '2022-12-07'
+date: '2023-02-01'
 tag: 'Website'
 image: 'streetlight-poster.jpg'
 imageAlt: 'Lamp post banner with text reading "your business goes here"'
