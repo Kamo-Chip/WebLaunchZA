@@ -9,7 +9,7 @@ const Footer = () => {
         className="local"
         style={{ padding: "0" }}
       >
-        &copy; 2022 <Link href="/" style={{fontFamily: "grifter"}}>MakersDev</Link> &#127487;&#127462;
+        &copy; 2023 <Link href="/" style={{fontFamily: "grifter"}}>MakersDev</Link> &#127487;&#127462;
       </span>
       <span className="socials">
         <span>Stay connected with us</span>
