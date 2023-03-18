@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <h1>This is how we help you</h1>
-      <div className="sale">
+      {/* <div className="sale">
         <div
           style={{
             display: "flex",
@@ -37,7 +37,7 @@ const Services = () => {
           <p>Website development</p>
           <small>*Ends on 25 February 2023</small>
         </div>
-      </div>
+      </div> */}
       <h2
         style={{
           textAlign: "center",
@@ -51,7 +51,7 @@ const Services = () => {
         <Item
           serviceName={"Website design & development"}
           price={"1 500"}
-          salePrice={"1050"}
+          // salePrice={"1050"}
           tagLine={
             "This is not just a website. This is the face of your business."
           }
@@ -109,7 +109,7 @@ const Services = () => {
         <Item
           serviceName={"Starter"}
           price={"2 000"}
-          salePrice={"1550"}
+          // salePrice={"1550"}
           tagLine={"Get started on the right track, and ensure your success"}
           perkList={["Web development", "Google Business profile set up"]}
         />
