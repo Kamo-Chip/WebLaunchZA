@@ -50,7 +50,7 @@ const Services = () => {
       <div className="services-container">
         <Item
           serviceName={"Website design & development"}
-          price={"1 500"}
+          price={"3 000"}
           // salePrice={"1050"}
           tagLine={
             "This is not just a website. This is the face of your business."
@@ -66,7 +66,7 @@ const Services = () => {
         />
         <Item
           serviceName="Google Business Profile set up"
-          price="750"
+          price="1 000"
           tagLine="The best way to get started if you don't already have a google business profile"
           perkList={[
             "We set up your profile according to industry best practices and current standards",
@@ -81,7 +81,7 @@ const Services = () => {
         />
         <Item
           serviceName={"Google Business Profile management"}
-          price={"500 p/m"}
+          price={"750 p/m"}
           tagLine={
             "A hands-off solution for getting higher rankings and being more visible online."
           }
@@ -108,14 +108,14 @@ const Services = () => {
       <div className="packages-container">
         <Item
           serviceName={"Starter"}
-          price={"2 000"}
+          price={"3 500"}
           // salePrice={"1550"}
           tagLine={"Get started on the right track, and ensure your success"}
           perkList={["Web development", "Google Business profile set up"]}
         />
         <Item
           serviceName={"Google Business Pack"}
-          price={"500 Once-off<br/>+<br/>R500p/m"}
+          price={"800 Once-off<br/>+<br/>R750p/m"}
           tagLine={"Make your presence felt on Google"}
           perkList={[
             "Google Business Profile set up",

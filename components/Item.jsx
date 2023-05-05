@@ -9,7 +9,7 @@ const Item = ({
   return (
     <div className="item" data-aos="fade-left" data-aos-easing="ease">
       <h3>{serviceName}</h3>
-      {serviceName === "Google Business Profile management" ||
+      {serviceName === "Website design & development" ||
       serviceName === "Starter" ||
       serviceName === "Google Business Pack" ? (
         <span
@@ -26,11 +26,11 @@ const Item = ({
           }}
         >
           <b>
-            {serviceName === "Google Business Profile management"
+            {serviceName === "Website design & development"
               ? "Most popular"
               : serviceName === "Starter"
-              ? "Save R450"
-              : "Save R250"}
+              ? "Save R500"
+              : "Save R200"}
           </b>
         </span>
       ) : null}
