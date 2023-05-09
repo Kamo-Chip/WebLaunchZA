@@ -43,7 +43,7 @@ const Testimonials = () => {
         />
         <Testimonial
           imgSrc="/clearview.png"
-          testimonialText="Clearview is delighted with the service received from DevMakers, our requirements were understood, alignment communication was kept throughout, and timeous response and most of the website was completed satisfactorily."
+          testimonialText="Clearview is delighted with the service received from MakersDev, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
           siteLink="https://clearviewgroup.net.za/"
           clientDetails="Maxwell, Clearviewgroup"
         />
