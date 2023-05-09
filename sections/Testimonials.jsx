@@ -41,6 +41,12 @@ const Testimonials = () => {
           profileLink="https://goo.gl/maps/Upp4vkENjxSDzE8u8"
           clientDetails="Jethro, Mthombeni Holdings And Projects"
         />
+        <Testimonial
+          imgSrc="/clearview.png"
+          testimonialText="Clearview is delighted with the service received from DevMakers, our requirements were understood, alignment communication was kept throughout, and timeous response and most of the website was completed satisfactorily."
+          siteLink="https://clearviewgroup.net.za/"
+          clientDetails="Maxwell, Clearviewgroup"
+        />
       </div>
     </section>
   );
