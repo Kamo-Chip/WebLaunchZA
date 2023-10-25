@@ -20,7 +20,7 @@ const Testimonials = () => {
             supported us and exceeded our expectations. Our experience was personal and friendly, and their ability to identify
             and present our key messages in an imaginative and creative way gave
             us a huge amount of confidence in them."
-          siteLink="https://www.oblesremoval.co.za"
+          siteLink="https://oblesremoval.vercel.app/"
           clientDetails="Lesley, Obles Removal"
         />
         <Testimonial
