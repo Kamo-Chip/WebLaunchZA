@@ -24,7 +24,7 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout blog={true}>
       <Head>
-        <title>The MakersDev Blog</title>
+        <title>The WebLaunchZA Blog</title>
         <meta
           name="description"
           content="Your guide to your business's online success. We dicuss how small to medium sized South African businesses can establish their online presence."
@@ -39,7 +39,7 @@ export default function Blog({ allPostsData }) {
           content="Your guide to your business's online success."
         />
         <meta property="og:image" content="/ducks.jpg" />
-        <meta name="author" content="MakersDev" />
+        <meta name="author" content="WebLaunchZA" />
       </Head>
       <section className="blogContainer">
         <h1>{"Your guide to your business's online success"}</h1>

@@ -50,7 +50,7 @@ const Navigation = ({ blog }) => {
           <header className="logo">
             <Link href="/">
               <Image src={LogoIcon} alt="Logo" />
-              MakersDev
+              WebLaunchZA
             </Link>
           </header>
           <div className="nav-items-container">
@@ -126,12 +126,12 @@ const Navigation = ({ blog }) => {
               </li>
             </ul>
 
-            <div className="nav-socials">
+            {/* <div className="nav-socials">
               <span>
                 Follow us to be the first to know about sales & other updates ⚡
               </span>
               <a
-                href="https://www.instagram.com/makersdev/"
+                href="https://www.instagram.com/weblaunchza/"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "#fff" }}
@@ -139,7 +139,7 @@ const Navigation = ({ blog }) => {
               >
                 <AiFillInstagram size="1.7rem" color="#000" />
               </a>
-            </div>
+            </div> */}
           </div>
         </nav>
       ) : (
@@ -147,7 +147,7 @@ const Navigation = ({ blog }) => {
           <header className="logo">
             <Link href="/">
               <Image src={LogoIcon} alt="Logo" />
-              MakersDev
+              WebLaunchZA
             </Link>
           </header>
           <Link href="/" className="blogLink">

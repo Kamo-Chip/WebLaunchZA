@@ -29,11 +29,11 @@ But what makes the Google Business Profile great is that it gives you control ov
 ![Business details of one the businesses](/postImages/gmb3.PNG)
 *Business details of Mthombeni Holdings And Projects (a client of ours)*
 
-This way customers form an opinion regarding your business. Now there is a lot more to discuss here, but for convenience's sake, if you wish to learn more about this, [contact us](https://makersdev.com/#contact "Home page containing more information") for a free consultation about the Google Business Profile and how it can help your business. 
+This way customers form an opinion regarding your business. Now there is a lot more to discuss here, but for convenience's sake, if you wish to learn more about this, [contact us](https://weblaunchza.com/#contact "Home page containing more information") for a free consultation about the Google Business Profile and how it can help your business. 
 
 ## How to get it to rank
 
-In terms of getting the profile seen, a lot of work goes in behind that. Most business owners do not have time to dedicate to their profile while also focusing on the most important parts of their business, which is why, at MakersDev, we provide Google Business Profile setup and management services, so that you can focus on what you do best, and rank high without any extra effort on your end. Here's what one of our clients has to say about our service: "In a competitive industry such as construction, we’re always looking for a way to get an edge. MakersDev has made it easy for us to get great results from our profile without having to do any of the work ourselves." 
+In terms of getting the profile seen, a lot of work goes in behind that. Most business owners do not have time to dedicate to their profile while also focusing on the most important parts of their business, which is why, at WebLaunchZA, we provide Google Business Profile setup and management services, so that you can focus on what you do best, and rank high without any extra effort on your end. Here's what one of our clients has to say about our service: "In a competitive industry such as construction, we’re always looking for a way to get an edge. WebLaunchZA has made it easy for us to get great results from our profile without having to do any of the work ourselves." 
 
 ## Summary of benefits
 
@@ -43,4 +43,4 @@ Now let's look at a summary of the benefits of using a Google Business Profile:
     - It gives you control over how customers perceive your business
     - It won't require much effort from you if you sign up for our Google Business Profile services.
 
-Click [here](https://makersdev.com "Home page containing more information") to learn about MakersDev and how we can help your business succeed online. 
+Click [here](https://weblaunchza.com "Home page containing more information") to learn about WebLaunchZA and how we can help your business succeed online. 

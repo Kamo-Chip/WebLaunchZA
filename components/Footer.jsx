@@ -5,18 +5,23 @@ import { AiFillInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <span
-        className="local"
-        style={{ padding: "0" }}
-      >
-        &copy; 2023 <Link href="/" style={{fontFamily: "grifter"}}>MakersDev</Link> &#127487;&#127462;
+      <span className="local" style={{ padding: "0" }}>
+        &copy; {new Date().getFullYear()}{" "}
+        <Link href="/" style={{ fontFamily: "grifter" }}>
+          WebLaunchZA
+        </Link>{" "}
+        &#127487;&#127462;
       </span>
-      <span className="socials">
+      {/* <span className="socials">
         <span>Stay connected with us</span>
-        <Link href="https://www.instagram.com/makersdev/"  target="_blank" rel="noreferrer">
+        <Link
+          href="https://www.instagram.com/makersdev/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillInstagram size="2rem" />
         </Link>
-      </span>
+      </span> */}
     </footer>
   );
 };

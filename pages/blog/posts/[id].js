@@ -130,19 +130,19 @@ export default function Post({ postData }) {
               <span>
                 Founder of{" "}
                 <Link href="/" style={{ fontFamily: "grifter" }}>
-                  MakersDev
+                  WebLaunchZA
                 </Link>
               </span>
             </div>
           </div>
-          <div style={{ marginTop: "1rem" }}>
-            <Link href="https://www.instagram.com/makersdev/">
+          {/* <div style={{ marginTop: "1rem" }}> */}
+            {/* <Link href="https://www.instagram.com/makersdev/">
               <AiFillInstagram size={"2rem"} />
-            </Link>
+            </Link> */}
             {/* <Link href="https://twitter.com/kamo_io">
               <AiOutlineTwitter size={"2rem"} />
             </Link> */}
-          </div>
+          {/* </div> */}
         </div>
 
         <Image

@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>MakersDev - Digital Agency for SMEs in South Africa</title>
+        <title>WebLaunchZA - Digital Agency for SMEs in South Africa</title>
         <meta
           name="description"
-          content="MakersDev helps small to medium sized South African businesses establish their online presence. We design and develop your website as well as setup and manage your Google Business profile."
+          content="WebLaunchZA helps small to medium sized South African businesses establish their online presence. We design and develop your website as well as setup and manage your Google Business profile."
           key="desc"
         />
         <meta
@@ -26,9 +26,9 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://www.partoo.co/mybusiness/wp-content/uploads/2022/04/google-my-business-ficha.jpg"
+          content="https://www.weblaunchza.com/hero.png"
         />
-        <meta name="author" content="MakersDev" />
+        <meta name="author" content="WebLaunchZA" />
       </Head>
       <Hero />
       <About />

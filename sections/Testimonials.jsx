@@ -16,7 +16,7 @@ const Testimonials = () => {
       <div className="testimonialsContainer">
         <Testimonial
           imgSrc="/obles.jpg"
-          testimonialText="Throughout the whole project, MakersDev
+          testimonialText="Throughout the whole project, WebLaunchZA
             supported us and exceeded our expectations. Our experience was personal and friendly, and their ability to identify
             and present our key messages in an imaginative and creative way gave
             us a huge amount of confidence in them."
@@ -25,7 +25,7 @@ const Testimonials = () => {
         />
         <Testimonial
           imgSrc="/matnomz.JPG"
-          testimonialText="MakersDev helped us set up our Google business profile and develop a
+          testimonialText="WebLaunchZA helped us set up our Google business profile and develop a
           website. They made the process extremely easy for us and always kept
           us up to date on the status of things. I would definitely recommend
           them."
@@ -35,7 +35,7 @@ const Testimonials = () => {
         />
         <Testimonial
           imgSrc="/mthombeni.jpg"
-          testimonialText="In a competitive industry such as construction, we’re always looking for a way to get an edge. MakersDev has made it easy
+          testimonialText="In a competitive industry such as construction, we’re always looking for a way to get an edge. WebLaunchZA has made it easy
           for us to get great results from our profile without having to do
           any of the work ourselves."
           profileLink="https://goo.gl/maps/Upp4vkENjxSDzE8u8"
@@ -43,7 +43,7 @@ const Testimonials = () => {
         />
         <Testimonial
           imgSrc="/clearview.png"
-          testimonialText="Clearview is delighted with the service received from MakersDev, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
+          testimonialText="Clearview is delighted with the service received from WebLaunchZA, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
           siteLink="https://clearviewgroup.net.za/"
           clientDetails="Maxwell, Clearviewgroup"
         />

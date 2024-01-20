@@ -57,7 +57,7 @@ const Pricing = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                hellomakersdev@gmail.com
+                Email Us 
               </a>
             </div>
             <div className="contact-details">
