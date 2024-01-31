@@ -43,9 +43,6 @@ export default function Blog({ allPostsData }) {
       </Head>
       <section className="blogContainer">
         <h1>{"Your guide to your business's online success"}</h1>
-        {/* <div style={{width: "100%", textAlign: "center"}}>
-          <small style={{ fontSize: "16px", color: "#303030"}}>New post every first wednesday of the month</small>
-        </div> */}
         <ul className="blogList">
           {allPostsData.map(
             ({ id, date, title, tag, image, imageAlt, preview }) => (
@@ -67,10 +64,9 @@ export default function Blog({ allPostsData }) {
                   <div className="blogPreviewText">
                     <span>{tag}</span>
                     <h3>{title}</h3>
-                    <br />
-                    <small>
+                    {/* <small>
                       <Date dateString={date} />
-                    </small>
+                    </small> */}
                     <p>{preview}</p>
                   </div>
                 </li>

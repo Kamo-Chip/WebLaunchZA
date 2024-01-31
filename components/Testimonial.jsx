@@ -21,22 +21,23 @@ const Testimonial = ({
         {testimonialText}
         <br />
         <br />
+        <b>{clientDetails}</b>
+        <br />
         {siteLink ? (
-          <a href={siteLink} target="_blank" rel="noreferrer">
-            View website
-          </a>
+          <>
+            <a href={siteLink} target="_blank" rel="noreferrer">
+              View website
+            </a>
+            <br />
+          </>
         ) : null}
         {profileLink ? (
           <>
-            <br />
             <a href={profileLink} target="_blank" rel="noreferrer">
               View profile
             </a>
           </>
         ) : null}
-        <br />
-        <br />
-        <b>- {clientDetails}</b>
       </span>
     </div>
   );

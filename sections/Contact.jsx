@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Pricing = () => {
   const form = useRef();
@@ -57,7 +58,20 @@ const Pricing = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Email Us 
+                Email Us
+              </a>
+            </div>
+            <div className="contact-details" style={{}}>
+              <span style={{ paddingRight: "1.5em" }}>
+                <IoLogoWhatsapp />
+              </span>
+              <a
+                href="https://wa.me/270724802452"
+                target="_blank"
+                rel="noreferrer"
+                title="Message us on WhatsApp"
+              >
+                Message Us
               </a>
             </div>
             <div className="contact-details">
@@ -66,23 +80,6 @@ const Pricing = () => {
               </span>
               <a href="tel:+2772-480-2452">072 480 2452</a>
             </div>
-          </div>
-          <div className="contact-form-container">
-            <form ref={form} onSubmit={sendEmail}>
-              <h3 style={{ margin: "0 0 2rem 0" }}>Contact Us</h3>
-              <input
-                type="text"
-                name="user_name"
-                placeholder="Enter your name"
-              />
-              <input
-                type="email"
-                name="user_email"
-                placeholder="Enter your email"
-              />
-              <textarea name="message" placeholder="Enter your message" />
-              <button type="submit">Send</button>
-            </form>
           </div>
         </div>
       </div>

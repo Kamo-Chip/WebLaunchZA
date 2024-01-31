@@ -87,10 +87,17 @@ export default function Post({ postData }) {
               flexDirection: "column",
             }}
           >
-            <span>
+            {/* <span>
               Updated <Date dateString={postData.date} />
-            </span>
-            <span>
+            </span> */}
+            <span
+              style={{
+                padding: ".5rem 1rem",
+                backgroundColor: "rgb(0, 203, 186)",
+                color: "#fff",
+                borderRadius: "30px"
+              }}
+            >
               <b>{postData.tag}</b>
             </span>
           </div>
@@ -117,7 +124,7 @@ export default function Post({ postData }) {
               alt="Kamogelo Khumalo"
               width={60}
               height={60}
-              style={{ borderRadius: "50%"}}
+              style={{ borderRadius: "50%" }}
             />
             <div
               style={{
@@ -135,14 +142,6 @@ export default function Post({ postData }) {
               </span>
             </div>
           </div>
-          {/* <div style={{ marginTop: "1rem" }}> */}
-            {/* <Link href="https://www.instagram.com/makersdev/">
-              <AiFillInstagram size={"2rem"} />
-            </Link> */}
-            {/* <Link href="https://twitter.com/kamo_io">
-              <AiOutlineTwitter size={"2rem"} />
-            </Link> */}
-          {/* </div> */}
         </div>
 
         <Image
@@ -153,7 +152,7 @@ export default function Post({ postData }) {
           height={506}
           className="postHeroImg"
         />
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div  dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
       <Alert />
     </Layout>
