@@ -11,14 +11,14 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <h1>This is how we help you</h1>
-      {/* <div className="sale">
+      <div className="sale">
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             width: "fit-content",
             textAlign: "center",
-            background: "#5b00cb",
+            background: "#792fd3d4",
             color: "#fff",
             padding: "2em",
             borderRadius: "20px",
@@ -32,12 +32,12 @@ const Services = () => {
             style={{ fontFamily: "grifter, sans-serif", margin: "0" }}
             className="percentage"
           >
-            30% Off
+            33% Off
           </p>
-          <p>Website development</p>
-          <small>*Ends on 25 February 2023</small>
+          <p>Website Design & Development</p>
+          <small>Ends on 01 March 2024</small>
         </div>
-      </div> */}
+      </div>
       <h2
         style={{
           textAlign: "center",
@@ -51,7 +51,7 @@ const Services = () => {
         <Item
           serviceName={"Website design & development"}
           price={"3 000"}
-          // salePrice={"1050"}
+          salePrice={"2000"}
           tagLine={
             "This is not just a website. This is the face of your business."
           }
@@ -61,7 +61,6 @@ const Services = () => {
             "We ensure that your website looks good and works properly on a range of differenct devices",
             "We confidently provide high quality work in a short period of time",
             "SEO enabled",
-            "Hosting is free for the first year",
           ]}
         />
         <Item
@@ -103,17 +102,17 @@ const Services = () => {
           textAlign: "center",
         }}
       >
-        Packages
+        Package
       </h2>
       <div className="packages-container">
         <Item
           serviceName={"Starter"}
           price={"3 500"}
-          // salePrice={"1550"}
+          salePrice={"3 000"}
           tagLine={"Get started on the right track, and ensure your success"}
           perkList={["Web development", "Google Business profile set up"]}
         />
-        <Item
+        {/* <Item
           serviceName={"Google Business Pack"}
           price={"800 Once-off<br/>+<br/>R750p/m"}
           tagLine={"Make your presence felt on Google"}
@@ -121,7 +120,7 @@ const Services = () => {
             "Google Business Profile set up",
             "Google Business Profile management",
           ]}
-        />
+        /> */}
       </div>
       <small
         className="disclaimer"

@@ -19,8 +19,7 @@ ul div li {
 .sale {
   display: flex;
   justify-content: center;
-  margin-bottom: 6rem;
-  font-family: "Inter"
+  font-family: "Inter";
 }
 .sale p {
   font-size: 2rem;
@@ -55,7 +54,8 @@ ul div li {
   grid-gap: 1rem;
 }
 
-.services-container, .packages-container {
+.services-container,
+.packages-container {
   font-size: 1rem;
   font-weight: 500;
   font-style: normal;
@@ -63,9 +63,10 @@ ul div li {
 }
 
 .packages-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .packages-container span {
