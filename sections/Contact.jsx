@@ -54,7 +54,7 @@ const Pricing = () => {
                 <MdEmail />
               </span>
               <a
-                href="mailto:hellomakersdev@gmail.com"
+                href="mailto:weblaunchza@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
