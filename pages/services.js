@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Services from "../sections/Services";
 import Contact from "../sections/Contact";
+import Head from "next/head";
 
 const ServicePage = () => {
   return (
