@@ -56,6 +56,7 @@ const Services = () => {
             "This is not just a website. This is the face of your business."
           }
           perkList={[
+            "Up to 8 pages",
             "We work closely with you to craft a beautiful website that suits your's and your customer's needs",
             "You do not have to worry about the website's content. We handle all of that for you",
             "We ensure that your website looks good and works properly on a range of differenct devices",
