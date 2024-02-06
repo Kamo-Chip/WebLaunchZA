@@ -41,7 +41,7 @@ const Testimonials = () => {
         />
 
         <Testimonial
-          imgSrc="/mthombeni.jpg"
+          imgSrc="/mthombeni.webp"
           testimonialText="In a competitive industry such as construction, we’re always looking for a way to get an edge. WebLaunchZA has made it easy
           for us to get great results from our profile without having to do
           any of the work ourselves."
