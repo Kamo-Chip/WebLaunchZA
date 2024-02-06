@@ -29,7 +29,7 @@ const Item = ({
             {serviceName === "Website design & development"
               ? "Most popular"
               : serviceName === "Starter"
-              ? "Save R500"
+              ? "Save R1 000"
               : "Save R200"}
           </b>
         </span>

@@ -78,7 +78,7 @@ const Services = () => {
             "Cover design",
           ]}
         />
-        <Item
+        {/* <Item
           serviceName={"Google Business Profile management"}
           price={"750 p/m"}
           tagLine={
@@ -95,7 +95,7 @@ const Services = () => {
             "Curating Q&A's",
             "Making social posts",
           ]}
-        />
+        /> */}
       </div>
       <h2
         style={{
@@ -107,7 +107,7 @@ const Services = () => {
       <div className="packages-container">
         <Item
           serviceName={"Starter"}
-          price={"3 500"}
+          price={"4 000"}
           salePrice={"3 000"}
           tagLine={"Get started on the right track, and ensure your success"}
           perkList={["Web development", "Google Business profile set up"]}

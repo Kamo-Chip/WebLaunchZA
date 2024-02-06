@@ -7,9 +7,11 @@ import { useEffect, useState } from "react";
 import Aos from "aos";
 import Image from "next/image";
 import { IoIosArrowBack } from "react-icons/io";
+import { useRouter } from "next/router";
 
 const Navigation = ({ blog }) => {
   const [showNavItems, setShowNavItems] = useState(false);
+  const router = useRouter();
 
   const toggleNav = () => {
     const nav = document.querySelector(".nav-list");
@@ -37,8 +39,6 @@ const Navigation = ({ blog }) => {
     }
   };
 
-  useEffect(() => {}, [showNavItems]);
-
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
@@ -59,32 +59,43 @@ const Navigation = ({ blog }) => {
             </div>
 
             <ul className="nav-list">
-              <li>
-                <ScrollLink
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={closeNav}
-                  href="#"
-                >
-                  About
-                </ScrollLink>
-              </li>
-              <li>
-                <ScrollLink
-                  to="testimonials"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={closeNav}
-                  href="#"
-                >
-                  Testimonials
-                </ScrollLink>
-              </li>
+              {!router.pathname.includes("services") ? (
+                <>
+                  <li>
+                    <ScrollLink
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                      onClick={closeNav}
+                      href="#"
+                    >
+                      About
+                    </ScrollLink>
+                  </li>
+                  <li>
+                    <ScrollLink
+                      to="testimonials"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                      onClick={closeNav}
+                      href="#"
+                    >
+                      Testimonials
+                    </ScrollLink>
+                  </li>
+                </>
+              ) : (
+                <li>
+                  <Link onClick={closeNav} href="/">
+                    Home
+                  </Link>
+                </li>
+              )}
+
               <li>
                 <ScrollLink
                   to="services"
