@@ -19,7 +19,7 @@ const Navigation = ({ blog }) => {
     if (showNavItems) {
       nav.classList.remove("nav-on");
       nav.classList.add("nav-off");
-      document.querySelector(".nav-icon-container").style.position = "absolute";
+      document.querySelector(".nav-icon-container").style.position = "fixed";
       setShowNavItems(false);
     } else {
       nav.classList.remove("nav-off");
@@ -116,13 +116,6 @@ const Navigation = ({ blog }) => {
                   duration={500}
                   onClick={closeNav}
                   href="#"
-                >
-                  Contact
-                </ScrollLink>
-              </li>
-              <li>
-                <Link
-                  href="/blog"
                   style={{
                     backgroundColor: "#00cbba",
                     color: "#fff",
@@ -130,8 +123,11 @@ const Navigation = ({ blog }) => {
                     borderRadius: "10px",
                   }}
                 >
-                  Blog
-                </Link>
+                  Contact
+                </ScrollLink>
+              </li>
+              <li>
+                <Link href="/blog">Blog</Link>
               </li>
             </ul>
           </div>

@@ -48,7 +48,7 @@ const Pricing = () => {
           className="contact-wrapper"
         >
           <div className="details-container">
-            <h3>Our details</h3>
+            <h3>Contact Us Today</h3>
             <div className="contact-details" style={{}}>
               <span style={{ paddingRight: "1.5em" }}>
                 <MdEmail />
