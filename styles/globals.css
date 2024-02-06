@@ -43,7 +43,9 @@ body {
   align-items: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: mabry;
   text-align: center;
   text-transform: capitalize;
@@ -101,7 +103,7 @@ a {
   bottom: 0;
   height: fit-content;
   text-align: center;
-  padding: .5rem;
+  padding: 0.5rem;
   width: 300px;
   left: 0;
   right: 0;
@@ -181,4 +183,4 @@ a {
     background-position: center;
     background-attachment: unset;
   }
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */

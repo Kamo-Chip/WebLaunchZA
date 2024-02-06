@@ -18,7 +18,7 @@ const Services = () => {
             flexDirection: "column",
             width: "fit-content",
             textAlign: "center",
-            background: "#792fd3d4",
+            background: "#792fd3d1",
             color: "#fff",
             padding: "2em",
             borderRadius: "20px",
