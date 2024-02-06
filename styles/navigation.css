@@ -59,7 +59,7 @@
   display: flex !important;
   flex-direction: column;
   color: #fff;
-  right: -300px;
+  right: -500px;
   top: 0;
   padding-right: 1.5em;
   background-color: #ffffff;
@@ -86,13 +86,13 @@
 
 @-webkit-keyframes slideOut {
   100% {
-    right: -300px;
+    right: -400px;
   }
 }
 
 @keyframes slideOut {
   100% {
-    right: -300px;
+    right: -400px;
   }
 }
 @-webkit-keyframes slideIn {
@@ -117,21 +117,6 @@
 }
 .nav-icon-container {
   display: none;
-}
-
-.nav-socials {
-  display: none;
-  margin-right: -300px;
-}
-
-.nav-socials-on {
-  display: flex;
-  -webkit-animation: slideInSocials 500ms ease 0ms 1 forwards;
-  animation: slideInSocials 500ms ease 0ms 1 forwards;
-}
-
-.nav-socials a {
-  color: #fff;
 }
 
 .disappear {

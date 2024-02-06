@@ -46,12 +46,13 @@ ul div li {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  white-space: nowrap;
 }
 
 .services-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .services-container,
@@ -193,11 +194,15 @@ ul div li {
   } */
 }
 @media screen and (max-width: 425px) {
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .services-container,
   .packages-container {
     padding: 0;
     margin-bottom: 5rem;
-    grid-template-rows: auto auto;
   }
   .item {
     width: 330px;
@@ -215,6 +220,7 @@ ul div li {
   }
   .price {
     font-size: 2rem;
+    white-space: nowrap;
   }
   .sale {
     margin-bottom: 1rem;

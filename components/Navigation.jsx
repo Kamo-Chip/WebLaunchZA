@@ -7,9 +7,11 @@ import { useEffect, useState } from "react";
 import Aos from "aos";
 import Image from "next/image";
 import { IoIosArrowBack } from "react-icons/io";
+import { useRouter } from "next/router";
 
 const Navigation = ({ blog }) => {
   const [showNavItems, setShowNavItems] = useState(false);
+  const router = useRouter();
 
   const toggleNav = () => {
     const nav = document.querySelector(".nav-list");
@@ -17,14 +19,12 @@ const Navigation = ({ blog }) => {
     if (showNavItems) {
       nav.classList.remove("nav-on");
       nav.classList.add("nav-off");
-      document.querySelector(".nav-socials").classList.add("disappear");
       document.querySelector(".nav-icon-container").style.position = "absolute";
       setShowNavItems(false);
     } else {
       nav.classList.remove("nav-off");
       nav.classList.add("nav-on");
-      document.querySelector(".nav-socials").classList.remove("disappear");
-      document.querySelector(".nav-socials").classList.add("nav-socials-on");
+
       document.querySelector(".nav-icon-container").style.position = "fixed";
       setShowNavItems(true);
     }
@@ -36,8 +36,6 @@ const Navigation = ({ blog }) => {
       toggleNav();
     }
   };
-
-  useEffect(() => {}, [showNavItems]);
 
   useEffect(() => {
     Aos.init({ duration: 3000 });
@@ -59,32 +57,43 @@ const Navigation = ({ blog }) => {
             </div>
 
             <ul className="nav-list">
-              <li>
-                <ScrollLink
-                  to="about"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={closeNav}
-                  href="#"
-                >
-                  About
-                </ScrollLink>
-              </li>
-              <li>
-                <ScrollLink
-                  to="testimonials"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onClick={closeNav}
-                  href="#"
-                >
-                  Testimonials
-                </ScrollLink>
-              </li>
+              {!router.pathname.includes("services") ? (
+                <>
+                  <li>
+                    <ScrollLink
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                      onClick={closeNav}
+                      href="#"
+                    >
+                      About
+                    </ScrollLink>
+                  </li>
+                  <li>
+                    <ScrollLink
+                      to="testimonials"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                      onClick={closeNav}
+                      href="#"
+                    >
+                      Testimonials
+                    </ScrollLink>
+                  </li>
+                </>
+              ) : (
+                <li>
+                  <Link onClick={closeNav} href="/">
+                    Home
+                  </Link>
+                </li>
+              )}
+
               <li>
                 <ScrollLink
                   to="services"
@@ -125,21 +134,6 @@ const Navigation = ({ blog }) => {
                 </Link>
               </li>
             </ul>
-
-            {/* <div className="nav-socials">
-              <span>
-                Follow us to be the first to know about sales & other updates ⚡
-              </span>
-              <a
-                href="https://www.instagram.com/weblaunchza/"
-                target="_blank"
-                rel="noreferrer"
-                style={{ color: "#fff" }}
-                onClick={closeNav}
-              >
-                <AiFillInstagram size="1.7rem" color="#000" />
-              </a>
-            </div> */}
           </div>
         </nav>
       ) : (
