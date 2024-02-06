@@ -20,7 +20,7 @@ const Services = () => {
             textAlign: "center",
             background: "#792fd3d1",
             color: "#fff",
-            padding: "2em",
+            padding: "1.5rem 1rem",
             borderRadius: "20px",
           }}
           data-aos="fade-up"
