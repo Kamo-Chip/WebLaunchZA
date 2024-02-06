@@ -15,13 +15,10 @@ const Testimonials = () => {
       <h1>What Clients Are Saying About Us</h1>
       <div className="testimonialsContainer">
         <Testimonial
-          imgSrc="/obles.jpg"
-          testimonialText="Throughout the whole project, WebLaunchZA
-            supported us and exceeded our expectations. Our experience was personal and friendly, and their ability to identify
-            and present our key messages in an imaginative and creative way gave
-            us a huge amount of confidence in them."
-          siteLink="https://oblesremoval.vercel.app/"
-          clientDetails="Lesley, Obles Removal"
+          imgSrc="/clearview.png"
+          testimonialText="Clearview is delighted with the service received from WebLaunchZA, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
+          siteLink="https://clearviewgroup.net.za/"
+          clientDetails="Maxwell, Clearviewgroup"
         />
         <Testimonial
           imgSrc="/matnomz.JPG"
@@ -34,18 +31,22 @@ const Testimonials = () => {
           clientDetails="Ohimane, Matnomz Frenchies"
         />
         <Testimonial
+          imgSrc="/obles.jpg"
+          testimonialText="Throughout the whole project, WebLaunchZA
+            supported us and exceeded our expectations. Our experience was personal and friendly, and their ability to identify
+            and present our key messages in an imaginative and creative way gave
+            us a huge amount of confidence in them."
+          siteLink="https://oblesremoval.vercel.app/"
+          clientDetails="Lesley, Obles Removal"
+        />
+
+        <Testimonial
           imgSrc="/mthombeni.jpg"
           testimonialText="In a competitive industry such as construction, we’re always looking for a way to get an edge. WebLaunchZA has made it easy
           for us to get great results from our profile without having to do
           any of the work ourselves."
           profileLink="https://goo.gl/maps/Upp4vkENjxSDzE8u8"
           clientDetails="Jethro, Mthombeni Holdings And Projects"
-        />
-        <Testimonial
-          imgSrc="/clearview.png"
-          testimonialText="Clearview is delighted with the service received from WebLaunchZA, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
-          siteLink="https://clearviewgroup.net.za/"
-          clientDetails="Maxwell, Clearviewgroup"
         />
       </div>
     </section>
