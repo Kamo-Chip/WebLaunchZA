@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import { BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { FaCalendarCheck } from "react-icons/fa";
 
 const Pricing = () => {
   const form = useRef();
@@ -48,8 +49,8 @@ const Pricing = () => {
           className="contact-wrapper"
         >
           <div className="details-container">
-            <h2 style={{marginTop: "0"}}>Contact Us Today</h2>
-            <div className="contact-details" style={{}}>
+            <h2 style={{ marginTop: "0" }}>Contact Us Today</h2>
+            {/* <div className="contact-details" style={{}}>
               <span style={{ paddingRight: "1.5em" }}>
                 <MdEmail />
               </span>
@@ -59,6 +60,18 @@ const Pricing = () => {
                 rel="noreferrer"
               >
                 Email Us
+              </a>
+            </div> */}
+            <div className="contact-details" style={{}}>
+              <span style={{ paddingRight: "1.5em" }}>
+                <FaCalendarCheck />
+              </span>
+              <a
+                href="https://calendly.com/weblaunchza/15min"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Schedule Call
               </a>
             </div>
             <div className="contact-details" style={{}}>
@@ -74,12 +87,12 @@ const Pricing = () => {
                 Message Us
               </a>
             </div>
-            <div className="contact-details">
+            {/* <div className="contact-details">
               <span style={{ paddingRight: "1.5em" }}>
                 <BsTelephoneFill />
               </span>
               <a href="tel:+2772-480-2452">072 480 2452</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
