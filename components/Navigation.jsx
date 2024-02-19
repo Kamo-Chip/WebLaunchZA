@@ -72,19 +72,6 @@ const Navigation = ({ blog }) => {
                       About
                     </ScrollLink>
                   </li>
-                  <li>
-                    <ScrollLink
-                      to="testimonials"
-                      spy={true}
-                      smooth={true}
-                      offset={0}
-                      duration={500}
-                      onClick={closeNav}
-                      href="#"
-                    >
-                      Testimonials
-                    </ScrollLink>
-                  </li>
                 </>
               ) : (
                 <li>
@@ -93,7 +80,19 @@ const Navigation = ({ blog }) => {
                   </Link>
                 </li>
               )}
-
+              <li>
+                <ScrollLink
+                  to="testimonials"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  onClick={closeNav}
+                  href="#"
+                >
+                  Testimonials
+                </ScrollLink>
+              </li>
               <li>
                 <ScrollLink
                   to="services"
