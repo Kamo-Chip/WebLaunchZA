@@ -25,6 +25,12 @@ const Testimonials = () => {
             clientDetails="Maxwell, Clearviewgroup"
           />
           <Testimonial
+            imgSrc="/acejava.png"
+            testimonialText="Working with WebLaunchZA was a great experience. I gave a brief outlining my requirements, and they exceeded expectations by delivering results within just four days. I highly recommend WebLaunchZA for their prompt and outstanding services."
+            siteLink="https://acejava.com"
+            clientDetails="Kamo, AceJava"
+          />
+          <Testimonial
             imgSrc="/matnomz.JPG"
             testimonialText="WebLaunchZA helped us set up our Google business profile and develop a
           website. They made the process extremely easy for us and always kept
@@ -34,6 +40,7 @@ const Testimonials = () => {
             profileLink="https://goo.gl/maps/sqozschtPHEaE1BJ6"
             clientDetails="Ohimane, Matnomz Frenchies"
           />
+
           <Testimonial
             imgSrc="/obles.jpg"
             testimonialText="Throughout the whole project, WebLaunchZA
@@ -62,6 +69,14 @@ const Testimonials = () => {
                   testimonialText="Clearview is delighted with the service received from WebLaunchZA, our requirements were understood, alignment communication was kept throughout, with a  timeous response and the website was completed satisfactorily."
                   siteLink="https://clearviewgroup.net.za/"
                   clientDetails="Maxwell, Clearviewgroup"
+                />
+              </div>
+              <div className="embla__slide">
+                <Testimonial
+                  imgSrc="/acejava.png"
+                  testimonialText="Working with WebLaunchZA was a great experience. I gave a brief outlining my requirements, and they exceeded expectations by delivering results within just four days. I highly recommend WebLaunchZA for their prompt and outstanding services."
+                  siteLink="https://acejava.com"
+                  clientDetails="Kamo, AceJava"
                 />
               </div>
               <div className="embla__slide">
