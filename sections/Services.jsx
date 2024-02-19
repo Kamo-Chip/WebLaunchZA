@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <h1>This is how we help you</h1>
-      <div className="sale">
+      {/* <div className="sale">
         <div
           style={{
             display: "flex",
@@ -37,7 +37,7 @@ const Services = () => {
           <p>Website Design & Development</p>
           <small>Ends on 01 March 2024</small>
         </div>
-      </div>
+      </div> */}
       <h2
         style={{
           textAlign: "center",
