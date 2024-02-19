@@ -2,6 +2,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Item from "../components/Item";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaCalendarCheck } from "react-icons/fa";
 
 const Services = () => {
   useEffect(() => {
@@ -41,6 +43,8 @@ const Services = () => {
       <h2
         style={{
           textAlign: "center",
+          marginTop: "0",
+          marginBottom: "2rem",
         }}
         data-aos="fade-in"
         data-aos-easing="ease"
@@ -97,6 +101,15 @@ const Services = () => {
             "Making social posts",
           ]}
         /> */}
+      </div>
+      <div className="contact-container">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="500"
+          className="contact-wrapper"
+        >
+         
+        </div>
       </div>
       <h2
         style={{

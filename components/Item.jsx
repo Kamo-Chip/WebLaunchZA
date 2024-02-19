@@ -1,3 +1,6 @@
+import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
+
 const Item = ({
   serviceName,
   price,
@@ -40,7 +43,12 @@ const Item = ({
           dangerouslySetInnerHTML={{ __html: `R ${price}` }}
         />
       ) : (
-        <span className="price"><span style={{marginRight: ".5em", color: "grey"}}><s>R {price}</s></span> R {salePrice}</span>
+        <span className="price">
+          <span style={{ marginRight: ".5em", color: "grey" }}>
+            <s>R {price}</s>
+          </span>{" "}
+          R {salePrice}
+        </span>
       )}
       <p style={{ textAlign: "center" }}>{tagLine}</p>
       <ul>
@@ -58,6 +66,23 @@ const Item = ({
           </>
         ) : null}
       </ul>
+      <ScrollLink
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+        href="#"
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+          marginTop: "auto",
+          marginBottom: "0.5rem"
+        }}
+      >
+        <button>Contact Us</button>
+      </ScrollLink>
     </div>
   );
 };
