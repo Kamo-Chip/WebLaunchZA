@@ -64,18 +64,6 @@ const Pricing = () => {
             </div> */}
             <div className="contact-details" style={{}}>
               <span style={{ paddingRight: "1.5em" }}>
-                <FaCalendarCheck />
-              </span>
-              <a
-                href="https://calendly.com/weblaunchza/15min"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Schedule Call
-              </a>
-            </div>
-            <div className="contact-details" style={{}}>
-              <span style={{ paddingRight: "1.5em" }}>
                 <IoLogoWhatsapp />
               </span>
               <a
@@ -87,6 +75,19 @@ const Pricing = () => {
                 Message Us
               </a>
             </div>
+            <div className="contact-details" style={{}}>
+              <span style={{ paddingRight: "1.5em" }}>
+                <FaCalendarCheck />
+              </span>
+              <a
+                href="https://calendly.com/weblaunchza/15min"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Schedule Call
+              </a>
+            </div>
+
             {/* <div className="contact-details">
               <span style={{ paddingRight: "1.5em" }}>
                 <BsTelephoneFill />
