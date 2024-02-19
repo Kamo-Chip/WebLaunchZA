@@ -57,11 +57,11 @@ const Services = () => {
           }
           perkList={[
             "Unlimited customisation",
+            "Free analytics tracking",
             "1 week turnaround time",
             "Fully responsive from desktop to smartphone",
             "Up to 5 pages",
             "SEO enabled",
-            "Free analytics tracking"
           ]}
         />
         <Item
@@ -125,7 +125,12 @@ const Services = () => {
       </div>
       <small
         className="disclaimer"
-        style={{ textAlign: "center", fontFamily: "Inter", fontSize: "14px", color: "rgba(0, 0, 0, 0.7)" }}
+        style={{
+          textAlign: "center",
+          fontFamily: "Inter",
+          fontSize: "14px",
+          color: "rgba(0, 0, 0, 0.7)",
+        }}
       >
         Price, and turnaround time may vary depending on complexity of project
       </small>
